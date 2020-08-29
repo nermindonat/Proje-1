@@ -1,0 +1,16 @@
+select.js-example-data-array {
+    width: 300% !important;
+
+}
+
+
+li.nav-item a:visited {
+    background-color: #4099ff !important;
+    font-weight: bold;
+}
+
+li.nav-item a {
+    color: #7b8aff;
+    font-weight: bold;
+    font-size: 20px;
+}

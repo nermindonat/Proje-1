@@ -7,3 +7,9 @@ C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani
 C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\obj\Debug\GorevYonetimSistemi.VeriKatmani.csproj.CopyComplete
 C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\obj\Debug\GorevYonetimSistemi.VeriKatmani.dll
 C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\obj\Debug\GorevYonetimSistemi.VeriKatmani.pdb
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\bin\Debug\GorevYonetimSistemi.VeriKatmani.dll.config
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\bin\Debug\EntityFramework.dll
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\bin\Debug\GorevYonetimSistemi.EntitySiniflar.dll.config
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\bin\Debug\EntityFramework.xml
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\bin\Debug\EntityFramework.SqlServer.xml
