@@ -1,0 +1,6 @@
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.EntitySiniflar\bin\Debug\GorevYonetimSistemi.EntitySiniflar.dll
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.EntitySiniflar\bin\Debug\GorevYonetimSistemi.EntitySiniflar.pdb
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.csprojAssemblyReference.cache
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.csproj.CoreCompileInputs.cache
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.dll
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.pdb

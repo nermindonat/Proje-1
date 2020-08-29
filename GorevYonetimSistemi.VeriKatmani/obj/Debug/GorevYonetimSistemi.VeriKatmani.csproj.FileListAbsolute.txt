@@ -1,0 +1,9 @@
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\bin\Debug\GorevYonetimSistemi.VeriKatmani.dll
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\bin\Debug\GorevYonetimSistemi.VeriKatmani.pdb
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\bin\Debug\GorevYonetimSistemi.EntitySiniflar.dll
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\bin\Debug\GorevYonetimSistemi.EntitySiniflar.pdb
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\obj\Debug\GorevYonetimSistemi.VeriKatmani.csprojAssemblyReference.cache
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\obj\Debug\GorevYonetimSistemi.VeriKatmani.csproj.CoreCompileInputs.cache
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\obj\Debug\GorevYonetimSistemi.VeriKatmani.csproj.CopyComplete
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\obj\Debug\GorevYonetimSistemi.VeriKatmani.dll
+C:\Users\Halil~\source\repos\GorevYonetimSistemi\GorevYonetimSistemi.VeriKatmani\obj\Debug\GorevYonetimSistemi.VeriKatmani.pdb
