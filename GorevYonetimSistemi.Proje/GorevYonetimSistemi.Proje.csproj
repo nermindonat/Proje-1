@@ -76,13 +76,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Site\admin.html" />
-    <Content Include="Site\Atamalar1.html" />
-    <Content Include="Site\bildirimler.html" />
-    <Content Include="Site\brand.html" />
-    <Content Include="Site\category-1.html" />
-    <Content Include="Site\category.html" />
-    <Content Include="Site\checkbox.html" />
+    <Content Include="Site\BildirimDetay.aspx" />
+    <Content Include="Site\Bildirim.aspx" />
     <Content Include="Site\css\animate.css" />
     <Content Include="Site\css\autofill.datatables.min.css" />
     <Content Include="Site\css\awesome-bootstrap-checkbox.css" />
@@ -169,12 +164,8 @@
     <Content Include="Site\css\treeview.css" />
     <Content Include="Site\css\waves.min.css" />
     <Content Include="Site\css\widget.css" />
-    <Content Include="Site\Default.aspx" />
-    <Content Include="Site\email-read.html" />
-    <Content Include="Site\evrak.html" />
     <Content Include="Site\gif\throbber.gif" />
-    <Content Include="Site\girispanel.html" />
-    <Content Include="Site\index.html" />
+    <Content Include="Site\Gorev.aspx" />
     <Content Include="Site\jpg\01.jpg" />
     <Content Include="Site\jpg\03.jpg" />
     <Content Include="Site\jpg\animate.jpg" />
@@ -454,6 +445,7 @@
     <Content Include="Site\js\widget-data.js" />
     <Content Include="Site\js\widget-statistic.js" />
     <Content Include="Site\js\wysiwyg-editor.js" />
+    <Content Include="Site\Login.aspx" />
     <Content Include="Site\node_modules\balanced-match\index.js" />
     <Content Include="Site\node_modules\brace-expansion\index.js" />
     <Content Include="Site\node_modules\cli\cli.js" />
@@ -1673,7 +1665,6 @@
     <Content Include="Site\node_modules\strip-json-comments\cli.js" />
     <Content Include="Site\node_modules\strip-json-comments\strip-json-comments.js" />
     <Content Include="Site\node_modules\wrappy\wrappy.js" />
-    <Content Include="Site\pages.html" />
     <Content Include="Site\png\complete.png" />
     <Content Include="Site\png\details_close.png" />
     <Content Include="Site\png\details_open.png" />
@@ -1688,9 +1679,6 @@
     <Content Include="Site\png\select-arrow.png" />
     <Content Include="Site\png\switch.png" />
     <Content Include="Site\png\{y}.png" />
-    <Content Include="Site\product.html" />
-    <Content Include="Site\site-settings.html" />
-    <Content Include="Site\staffs.html" />
     <Content Include="Site\svg\ad-2.svg" />
     <Content Include="Site\svg\ad.svg" />
     <Content Include="Site\svg\ae-2.svg" />
@@ -2199,22 +2187,42 @@
     <Content Include="Site\svg\zm.svg" />
     <Content Include="Site\svg\zw-2.svg" />
     <Content Include="Site\svg\zw.svg" />
-    <Content Include="Site\toplanti.html" />
-    <Content Include="Site\users.html" />
+    <Content Include="Site\Toplanti.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Site\BildirimDetay.aspx.cs">
+      <DependentUpon>BildirimDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\BildirimDetay.aspx.designer.cs">
+      <DependentUpon>BildirimDetay.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Site\Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Site\Bildirim.aspx.cs">
+      <DependentUpon>Bildirim.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Site\Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Site\Bildirim.aspx.designer.cs">
+      <DependentUpon>Bildirim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Gorev.aspx.cs">
+      <DependentUpon>Gorev.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Gorev.aspx.designer.cs">
+      <DependentUpon>Gorev.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site\Page.Master.cs">
       <DependentUpon>Page.Master</DependentUpon>
@@ -2222,6 +2230,13 @@
     </Compile>
     <Compile Include="Site\Page.Master.designer.cs">
       <DependentUpon>Page.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Toplanti.aspx.cs">
+      <DependentUpon>Toplanti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Toplanti.aspx.designer.cs">
+      <DependentUpon>Toplanti.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -48,7 +48,6 @@ namespace GorevYonetimSistemi.VeriKatmani
             table.Attach(obj);
             table.Remove(obj);
             _context.SaveChanges();
-
         }
     }
 }

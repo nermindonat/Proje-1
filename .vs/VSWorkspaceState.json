@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\GorevYonetimSistemi.Proje"
+    "\\GorevYonetimSistemi.EntitySiniflar",
+    "\\GorevYonetimSistemi.Proje",
+    "\\GorevYonetimSistemi.Proje\\Site",
+    "\\GorevYonetimSistemi.VeriKatmani"
   ],
+  "SelectedNode": "\\GorevYonetimSistemi.Proje\\Site\\email-read.html",
   "PreviewInSolutionExplorer": false
 }
