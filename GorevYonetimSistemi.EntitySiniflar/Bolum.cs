@@ -13,6 +13,6 @@ namespace GorevYonetimSistemi.EntitySiniflar
         public int FkOkulId { get; set; }
         public string BolumAdi { get; set; }
 
-        public List<Okul> Okullar { get; set; } 
+        public List<Okul> Okullar { get; set; }
     }
 }
