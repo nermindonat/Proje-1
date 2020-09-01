@@ -16,5 +16,6 @@ namespace GorevYonetimSistemi.EntitySiniflar
         public DateTime SonTarih { get; set; }
         public DateTime SonSaat { get; set; }
         public bool Durum { get; set; }
+
     }
 }

@@ -55,7 +55,6 @@
     <Compile Include="Atama.cs" />
     <Compile Include="Bildirim.cs" />
     <Compile Include="Bolum.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Gorev.cs" />
     <Compile Include="IdariGorevUnvan.cs" />
     <Compile Include="Kullanici.cs" />
