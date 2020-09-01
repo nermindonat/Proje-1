@@ -22,32 +22,28 @@
             <div class="col-lg-12 order-lg-2">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a href="" data-target="#toplantiKayit"
-                            data-toggle="tab" class="nav-link active"><strong>Toplantı
-                                                                Kayıt</strong></a>
+                        <a href="#" data-target="#toplantiKayit"
+                            data-toggle="tab" class="nav-link active"><strong>Toplantı Kayıt</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a href="" data-target="#toplantiDetay"
-                            data-toggle="tab" class="nav-link"><strong>Toplantı
-                                                                Detay</strong></a>
+                        <a href="#" data-target="#toplantiDetay"
+                            data-toggle="tab" class="nav-link"><strong>Toplantı Detay</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a href="" data-target="#toplantiAtama"
-                            data-toggle="tab" class="nav-link"><strong>Toplantı
-                                                                Atama</strong></a>
+                        <a href="#" data-target="#toplantiAtama"
+                            data-toggle="tab" class="nav-link"><strong>Toplantı Atama</strong></a>
                     </li>
                 </ul>
                 <div class="tab-content py-4">
                     <div class="tab-pane active " id="toplantiKayit">
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-12 col-md-8 col-lg-4">
                                 <div class="card">
                                     <div class="card-header">
                                         <h5>Toplantı Ekle</h5>
                                     </div>
                                     <div class="card-block">
-                                        <form id="main2" method="post"
-                                            novalidate>
+                                        <form id="main2" method="post" novalidate>
                                             <div class="form-group row">
                                                 <div class="col-sm-4">
                                                     <input type="hidden"
@@ -59,8 +55,7 @@
                                             </div>
                                             <div class="form-group row">
                                                 <label class="col-sm-2 col-form-label">
-                                                    Toplantı
-                                                                                        Adı</label>
+                                                    Toplantı Adı</label>
                                                 <div class="col-sm-4">
                                                     <input type="text"
                                                         class="form-control max-width"
@@ -71,8 +66,7 @@
                                             </div>
                                             <div class="form-group row">
                                                 <label class="col-sm-2 col-form-label">
-                                                    Toplantı
-                                                                                        Konusu</label>
+                                                    Toplantı Konusu</label>
                                                 <div class="col-sm-4">
                                                     <input type="text"
                                                         class="form-control max-width"
@@ -83,8 +77,7 @@
                                             </div>
                                             <div class="form-group row">
                                                 <label class="col-sm-2 col-form-label">
-                                                    Toplantı
-                                                                                        İçeriği</label>
+                                                    Toplantı İçeriği</label>
                                                 <div class="col-sm-4">
                                                     <textarea name="toplantiIcerigi" id="toplantiIcerigi"
                                                         cols="70"
@@ -96,8 +89,7 @@
 
                                             <div class="form-group row">
                                                 <label class="col-sm-2 col-form-label">
-                                                    Toplantı
-                                                                                        Tarihi</label>
+                                                    Toplantı Tarihi</label>
                                                 <div class="col-sm-4">
                                                     <input type="text"
                                                         class="form-control max-width"
@@ -108,8 +100,7 @@
                                             </div>
                                             <div class="form-group row">
                                                 <label class="col-sm-2 col-form-label">
-                                                    Toplantı
-                                                                                        Saati</label>
+                                                    Toplantı Saati</label>
                                                 <div class="col-sm-4">
                                                     <input type="text"
                                                         class="form-control max-width"
@@ -120,8 +111,7 @@
                                             </div>
                                             <div class="form-group row">
                                                 <label class="col-sm-2 col-form-label">
-                                                    Toplantı
-                                                                                        Yeri</label>
+                                                    Toplantı Yeri</label>
                                                 <div class="col-sm-4">
                                                     <input type="text"
                                                         class="form-control max-width"
@@ -135,20 +125,16 @@
                                                 <div class="col-sm-5">
                                                     <button type="submit"
                                                         class="btn btn-primary m-b-0">
-                                                        Kaydet
-                                                                                       
+                                                        Kaydet                
                                                     </button>
                                                     <button class="btn waves-effect waves-light btn-danger btn-square">
-                                                        Sil
-                                                                                       
+                                                        Sil                     
                                                     </button>
                                                     <button class="btn waves-effect waves-light btn-warning btn-square">
-                                                        Güncelle
-                                                                                       
+                                                        Güncelle                     
                                                     </button>
                                                     <button class="btn waves-effect waves-light btn-secondary btn-square">
-                                                        Temizle
-                                                                                       
+                                                        Temizle                     
                                                     </button>
                                                 </div>
 
@@ -221,24 +207,21 @@
                                             </div>
                                             <div class="form-group row">
                                                 <label class="col-sm-2 col-form-label">
-                                                    Toplantı
-                                                                                        Adı</label>
+                                                    Toplantı Adı</label>
                                                 <div class="col-sm-4">
                                                     <select class="js-example-data-array ">
-                                                        <option value="Seciniz">Seçiniz Lorem ipsum
-                                                                                                dolor sit amet.
-                                                                                            </option>
+                                                        <option value="Seciniz">Seçiniz Lorem ipsum dolor sit amet.
+                                                        </option>
                                                         <option value="1">Toplantı 1
-                                                                                            </option>
+                                                        </option>
                                                         <option value="1">Toplantı 2
-                                                                                            </option>
+                                                        </option>
                                                     </select>
                                                 </div>
                                             </div>
                                             <div class="form-group row">
                                                 <label class="col-sm-2 col-form-label">
-                                                    Toplantı
-                                                                                        Durum</label>
+                                                    Toplantı Durum</label>
                                                 <div class="col-sm-4">
                                                     <div class="radio radio-success radio-inline">
                                                         <input type="radio"
@@ -260,9 +243,7 @@
                                             </div>
                                             <div class="form-group row">
                                                 <label class="col-sm-2 col-form-label">
-                                                    Toplantı
-                                                                                        Sonrası Alınan
-                                                                                        Kararlar</label>
+                                                    Toplantı Sonrası Alınan Kararlar</label>
                                                 <div class="col-sm-4">
                                                     <textarea
                                                         name="toplantiKonusu"
@@ -279,20 +260,16 @@
                                                 <div class="col-sm-4">
                                                     <button type="submit"
                                                         class="btn btn-primary m-b-0">
-                                                        Kaydet
-                                                                                       
+                                                        Kaydet                         
                                                     </button>
                                                     <button class="btn waves-effect waves-light btn-danger btn-square">
-                                                        Sil
-                                                                                       
+                                                        Sil                 
                                                     </button>
                                                     <button class="btn waves-effect waves-light btn-warning btn-square">
-                                                        Güncelle
-                                                                                       
+                                                        Güncelle           
                                                     </button>
                                                     <button class="btn waves-effect waves-light btn-secondary btn-square">
-                                                        Temizle
-                                                                                       
+                                                        Temizle              
                                                     </button>
                                                 </div>
 
@@ -313,9 +290,7 @@
                                                         <th>Toplantı ID</th>
                                                         <th>Toplantı Adı</th>
                                                         <th>Toplantı Durum</th>
-                                                        <th>Toplantıda Alınan
-                                                                                            Kararlar
-                                                                                        </th>
+                                                        <th>Toplantıda Alınan Kararlar</th>
 
                                                     </tr>
                                                 </thead>
@@ -348,46 +323,37 @@
                                                 <label class="col-sm-2 col-form-label">Toplantı</label>
                                                 <div class="col-sm-10">
                                                     <select class="js-example-data-array ">
-                                                        <option value="Seciniz">Seçiniz Lorem ipsum
-                                                                                                dolor.
-                                                                                            </option>
-                                                        <option value="1">Toplantı
-                                                                                                1Seçiniz Lorem ipsum
-                                                                                                dolor.
-                                                                                            </option>
-                                                        <option value="1">Toplantı 2
-                                                                                            </option>
+                                                        <option value="Seciniz">Seçiniz Lorem ipsum dolor.
+                                                        </option>
+                                                        <option value="1">Toplantı 1 Seçiniz</option>
+                                                        <option value="1">Toplantı 2</option>
                                                     </select>
                                                 </div>
                                             </div>
                                             <div class="form-group row">
-                                                <label class="col-sm-2 col-form-label">
-                                                    İlgili
-                                                                                        Kişiler</label>
+                                                <label class="col-sm-2 col-form-label">İlgili Kişiler</label>
                                                 <div class="col-sm-10 col-xl-6 m-b-30">
                                                     <select id='custom-headers'
                                                         class="searchable"
                                                         multiple='multiple'>
-                                                        <option value='elem_1'
-                                                            selected>elem 1
-                                                                                            </option>
+                                                        <option value='elem_1' selected>elem 1 </option>
                                                         <option value='elem_2'>elem 2
-                                                                                            </option>
+                                                        </option>
                                                         <option value='elem_3'>elem 3
-                                                                                            </option>
+                                                        </option>
                                                         <option value='elem_4'
                                                             selected>elem 4
-                                                                                            </option>
+                                                        </option>
                                                         <option value='elem_5'>elem 5
-                                                                                            </option>
+                                                        </option>
                                                         <option value='elem_6'>elem 6
-                                                                                            </option>
+                                                        </option>
                                                         <option value='elem_7'>elem 7
-                                                                                            </option>
+                                                        </option>
                                                         <option value='elem_8'>elem 8
-                                                                                            </option>
+                                                        </option>
                                                         <option value='elem_9'>elem 9
-                                                                                            </option>
+                                                        </option>
 
                                                     </select>
                                                 </div>
