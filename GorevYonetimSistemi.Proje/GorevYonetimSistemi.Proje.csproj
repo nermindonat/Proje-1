@@ -134,6 +134,10 @@
     <Content Include="obj\Debug\GorevYonetimSistemi.Proje.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\GorevYonetimSistemi.Proje.dll" />
     <Content Include="obj\Debug\GorevYonetimSistemi.Proje.pdb" />
+    <Content Include="Ogrenci\OgrenciBildirim.aspx" />
+    <Content Include="Ogrenci\OgrenciBildirimDetay.aspx" />
+    <Content Include="Ogrenci\OgrenciGorev.aspx" />
+    <Content Include="Ogrenci\OgrenciToplanti.aspx" />
     <Content Include="Personel\PersonelBildirim.aspx" />
     <Content Include="Personel\PersonelBildirimDetay.aspx" />
     <Content Include="Personel\PersonelGorev.aspx" />
@@ -2288,6 +2292,30 @@
     </Compile>
     <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Ogrenci\OgrenciBildirim.aspx.cs">
+      <DependentUpon>OgrenciBildirim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ogrenci\OgrenciBildirim.aspx.designer.cs">
+      <DependentUpon>OgrenciBildirim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ogrenci\OgrenciBildirimDetay.aspx.cs">
+      <DependentUpon>OgrenciBildirimDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ogrenci\OgrenciBildirimDetay.aspx.designer.cs">
+      <DependentUpon>OgrenciBildirimDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ogrenci\OgrenciGorev.aspx.cs">
+      <DependentUpon>OgrenciGorev.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ogrenci\OgrenciGorev.aspx.designer.cs">
+      <DependentUpon>OgrenciGorev.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ogrenci\OgrenciToplanti.aspx.cs">
+      <DependentUpon>OgrenciToplanti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ogrenci\OgrenciToplanti.aspx.designer.cs">
+      <DependentUpon>OgrenciToplanti.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Personel\PersonelBildirim.aspx.cs">
       <DependentUpon>PersonelBildirim.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
