@@ -7,20 +7,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GorevYonetimSistemi.Proje.Site.Admin
+namespace GorevYonetimSistemi.Proje.Admin
 {
 
 
-    public partial class AdminGorev
+    public partial class AdminBildirim
     {
 
         /// <summary>
-        /// UserGorev control.
+        /// UserBildirim control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::GorevYonetimSistemi.Proje.User_Kontrol.UserGorev UserGorev;
+        protected global::GorevYonetimSistemi.Proje.User_Kontrol.UserBildirim UserBildirim;
     }
 }

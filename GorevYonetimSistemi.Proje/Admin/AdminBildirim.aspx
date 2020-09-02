@@ -1,6 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site/Page.Master" AutoEventWireup="true" CodeBehind="PersonelBildirim.aspx.cs" Inherits="GorevYonetimSistemi.Proje.Personel.PersonelBildirim" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site/Page.Master" AutoEventWireup="true" CodeBehind="AdminBildirim.aspx.cs" Inherits="GorevYonetimSistemi.Proje.Admin.AdminBildirim" %>
 
 <%@ Register Src="~/User Kontrol/UserBildirim.ascx" TagPrefix="uc1" TagName="UserBildirim" %>
+
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

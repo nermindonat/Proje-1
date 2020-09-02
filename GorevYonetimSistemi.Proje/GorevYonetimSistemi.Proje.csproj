@@ -76,6 +76,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\AdminBildirim.aspx" />
     <Content Include="Admin\AdminGorev.aspx" />
     <Content Include="bin\EntityFramework.dll" />
     <Content Include="bin\EntityFramework.SqlServer.dll" />
@@ -2255,6 +2256,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\AdminBildirim.aspx.cs">
+      <DependentUpon>AdminBildirim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminBildirim.aspx.designer.cs">
+      <DependentUpon>AdminBildirim.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\AdminGorev.aspx.cs">
       <DependentUpon>AdminGorev.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

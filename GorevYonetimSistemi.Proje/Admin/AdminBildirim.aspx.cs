@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace GorevYonetimSistemi.Proje.Site.Admin
+namespace GorevYonetimSistemi.Proje.Admin
 {
-    public partial class AdminToplanti : System.Web.UI.Page
+    public partial class AdminBildirim : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
