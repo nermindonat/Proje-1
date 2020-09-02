@@ -6,7 +6,7 @@
         <div class="col-lg-12 col-xl-3">
             <div class="user-head row">
                 <div class="user-face">
-                    <img class="img-fluid" src="png/logo.png" alt="Theme-Logo"/>
+                    <img class="img-fluid" src="/Site/png/logo.png" alt="Theme-Logo"/>
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
                             <div class="media m-b-20">
                                 <div class="media-left photo-table">
                                     <a href="#">
-                                        <img class="media-object img-radius" src="jpg/avatar-3.jpg" alt="E-mail User">
+                                        <img class="media-object img-radius" src="/Site/jpg/avatar-3.jpg" alt="E-mail User">
                                     </a>
                                 </div>
                                 <div class="media-body photo-contant">
@@ -88,17 +88,17 @@
                                         <div class="row mail-img m-b-20">
                                             <div class="col-sm-4 col-md-2 col-xs-12">
                                                 <a href="#">
-                                                    <img class="card-img-top img-fluid img-thumbnail" src="jpg/card1.jpg" alt="Card image cap">
+                                                    <img class="card-img-top img-fluid img-thumbnail" src="/Site/jpg/card1.jpg" alt="Card image cap">
                                                 </a>
                                             </div>
                                             <div class="col-sm-4 col-md-2 col-xs-12">
                                                 <a href="#">
-                                                    <img class="card-img-top img-fluid img-thumbnail" src="jpg/card2.jpg" alt="Card image cap">
+                                                    <img class="card-img-top img-fluid img-thumbnail" src="/Site/jpg/card2.jpg" alt="Card image cap">
                                                 </a>
                                             </div>
                                             <div class="col-sm-4 col-md-2 col-xs-12">
                                                 <a href="#">
-                                                    <img class="card-img-top img-fluid img-thumbnail" src="jpg/card13.jpg" alt="Card image cap">
+                                                    <img class="card-img-top img-fluid img-thumbnail" src="/Site/jpg/card13.jpg" alt="Card image cap">
                                                 </a>
                                             </div>
                                         </div>

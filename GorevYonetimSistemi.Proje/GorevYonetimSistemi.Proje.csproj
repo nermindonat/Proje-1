@@ -76,6 +76,65 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\AdminGorev.aspx" />
+    <Content Include="bin\EntityFramework.dll" />
+    <Content Include="bin\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\EntityFramework.xml" />
+    <Content Include="bin\GorevYonetimSistemi.EntitySiniflar.dll" />
+    <Content Include="bin\GorevYonetimSistemi.EntitySiniflar.pdb" />
+    <Content Include="bin\GorevYonetimSistemi.Proje.dll" />
+    <Content Include="bin\GorevYonetimSistemi.Proje.pdb" />
+    <Content Include="bin\GorevYonetimSistemi.VeriKatmani.dll" />
+    <Content Include="bin\GorevYonetimSistemi.VeriKatmani.pdb" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="bin\roslyn\csc.exe" />
+    <Content Include="bin\roslyn\csi.exe" />
+    <Content Include="bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="bin\roslyn\Microsoft.Win32.Primitives.dll" />
+    <Content Include="bin\roslyn\System.AppContext.dll" />
+    <Content Include="bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="bin\roslyn\System.Console.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.FileVersionInfo.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.StackTrace.dll" />
+    <Content Include="bin\roslyn\System.Globalization.Calendars.dll" />
+    <Content Include="bin\roslyn\System.IO.Compression.dll" />
+    <Content Include="bin\roslyn\System.IO.Compression.ZipFile.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="bin\roslyn\System.Net.Http.dll" />
+    <Content Include="bin\roslyn\System.Net.Sockets.dll" />
+    <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="bin\roslyn\System.Text.Encoding.CodePages.dll" />
+    <Content Include="bin\roslyn\System.Threading.Tasks.Extensions.dll" />
+    <Content Include="bin\roslyn\System.ValueTuple.dll" />
+    <Content Include="bin\roslyn\System.Xml.ReaderWriter.dll" />
+    <Content Include="bin\roslyn\System.Xml.XmlDocument.dll" />
+    <Content Include="bin\roslyn\System.Xml.XPath.dll" />
+    <Content Include="bin\roslyn\System.Xml.XPath.XDocument.dll" />
+    <Content Include="bin\roslyn\vbc.exe" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="obj\Debug\GorevYonetimSistemi.Proje.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\GorevYonetimSistemi.Proje.dll" />
+    <Content Include="obj\Debug\GorevYonetimSistemi.Proje.pdb" />
+    <Content Include="Personel\PersonelBildirim.aspx" />
+    <Content Include="Personel\PersonelBildirimDetay.aspx" />
+    <Content Include="Personel\PersonelGorev.aspx" />
+    <Content Include="Personel\PersonelToplanti.aspx" />
     <Content Include="Site\BildirimDetay.aspx" />
     <Content Include="Site\Bildirim.aspx" />
     <Content Include="Site\css\animate.css" />
@@ -2189,9 +2248,50 @@
     <Content Include="Site\svg\zw.svg" />
     <Content Include="Site\Toplanti.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="User Kontrol\UserBildirim.ascx" />
+    <Content Include="User Kontrol\UserBildirimDetay.ascx" />
+    <Content Include="User Kontrol\UserGorev.ascx" />
+    <Content Include="User Kontrol\UserToplanti.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\AdminGorev.aspx.cs">
+      <DependentUpon>AdminGorev.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminGorev.aspx.designer.cs">
+      <DependentUpon>AdminGorev.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Personel\PersonelBildirim.aspx.cs">
+      <DependentUpon>PersonelBildirim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personel\PersonelBildirim.aspx.designer.cs">
+      <DependentUpon>PersonelBildirim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personel\PersonelBildirimDetay.aspx.cs">
+      <DependentUpon>PersonelBildirimDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personel\PersonelBildirimDetay.aspx.designer.cs">
+      <DependentUpon>PersonelBildirimDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personel\PersonelGorev.aspx.cs">
+      <DependentUpon>PersonelGorev.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personel\PersonelGorev.aspx.designer.cs">
+      <DependentUpon>PersonelGorev.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personel\PersonelToplanti.aspx.cs">
+      <DependentUpon>PersonelToplanti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personel\PersonelToplanti.aspx.designer.cs">
+      <DependentUpon>PersonelToplanti.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site\BildirimDetay.aspx.cs">
       <DependentUpon>BildirimDetay.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2237,6 +2337,34 @@
     </Compile>
     <Compile Include="Site\Toplanti.aspx.designer.cs">
       <DependentUpon>Toplanti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User Kontrol\UserBildirim.ascx.cs">
+      <DependentUpon>UserBildirim.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Kontrol\UserBildirim.ascx.designer.cs">
+      <DependentUpon>UserBildirim.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User Kontrol\UserBildirimDetay.ascx.cs">
+      <DependentUpon>UserBildirimDetay.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Kontrol\UserBildirimDetay.ascx.designer.cs">
+      <DependentUpon>UserBildirimDetay.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User Kontrol\UserGorev.ascx.cs">
+      <DependentUpon>UserGorev.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Kontrol\UserGorev.ascx.designer.cs">
+      <DependentUpon>UserGorev.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User Kontrol\UserToplanti.ascx.cs">
+      <DependentUpon>UserToplanti.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Kontrol\UserToplanti.ascx.designer.cs">
+      <DependentUpon>UserToplanti.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -2469,6 +2597,27 @@
     <Content Include="Site\ttf\themify9f24.ttf" />
     <Content Include="Site\woff\dd-icon.woff" />
     <Content Include="Site\woff\themify9f24.woff" />
+    <Content Include="bin\GorevYonetimSistemi.EntitySiniflar.dll.config" />
+    <Content Include="bin\GorevYonetimSistemi.Proje.dll.config" />
+    <Content Include="bin\GorevYonetimSistemi.VeriKatmani.dll.config" />
+    <Content Include="bin\roslyn\csc.exe.config" />
+    <Content Include="bin\roslyn\csc.rsp" />
+    <Content Include="bin\roslyn\csi.exe.config" />
+    <Content Include="bin\roslyn\csi.rsp" />
+    <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="bin\roslyn\Microsoft.Managed.Core.targets" />
+    <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="bin\roslyn\vbc.exe.config" />
+    <Content Include="bin\roslyn\vbc.rsp" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="obj\Debug\build.force" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\GorevYonetimSistemi.Proje.csproj.CopyComplete" />
+    <Content Include="obj\Debug\GorevYonetimSistemi.Proje.csproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\GorevYonetimSistemi.Proje.csprojAssemblyReference.cache" />
+    <Content Include="obj\Debug\Tsc.out" />
+    <Content Include="obj\Release\GorevYonetimSistemi.Proje.csprojAssemblyReference.cache" />
     <None Include="packages.config" />
     <Content Include="Site\Page.Master" />
     <None Include="Web.Debug.config">
@@ -2481,6 +2630,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GorevYonetimSistemi.EntitySiniflar\GorevYonetimSistemi.EntitySiniflar.csproj">

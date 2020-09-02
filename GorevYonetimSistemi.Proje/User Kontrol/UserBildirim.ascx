@@ -5,7 +5,7 @@
             <div class="col-lg-12 col-xl-3">
                 <div class="user-head row">
                     <div class="user-face">
-                        <img class="img-fluid" src="png/logo.png" alt="Theme-Logo" />
+                        <img class="img-fluid" src="/Site/png/logo.png" alt="Theme-Logo" />
                     </div>
                 </div>
             </div>

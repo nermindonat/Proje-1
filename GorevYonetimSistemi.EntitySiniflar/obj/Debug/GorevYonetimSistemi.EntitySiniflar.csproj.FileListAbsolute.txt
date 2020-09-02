@@ -22,3 +22,15 @@ H:\My-Github-Projects\Proje\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\G
 H:\My-Github-Projects\Proje\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.csproj.CopyComplete
 H:\My-Github-Projects\Proje\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.dll
 H:\My-Github-Projects\Proje\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.pdb
+C:\Users\ZANA\Desktop\Github-Projelerim\Msku\Proje\GorevYonetimSistemi.EntitySiniflar\bin\Debug\GorevYonetimSistemi.EntitySiniflar.dll.config
+C:\Users\ZANA\Desktop\Github-Projelerim\Msku\Proje\GorevYonetimSistemi.EntitySiniflar\bin\Debug\GorevYonetimSistemi.EntitySiniflar.dll
+C:\Users\ZANA\Desktop\Github-Projelerim\Msku\Proje\GorevYonetimSistemi.EntitySiniflar\bin\Debug\GorevYonetimSistemi.EntitySiniflar.pdb
+C:\Users\ZANA\Desktop\Github-Projelerim\Msku\Proje\GorevYonetimSistemi.EntitySiniflar\bin\Debug\EntityFramework.dll
+C:\Users\ZANA\Desktop\Github-Projelerim\Msku\Proje\GorevYonetimSistemi.EntitySiniflar\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ZANA\Desktop\Github-Projelerim\Msku\Proje\GorevYonetimSistemi.EntitySiniflar\bin\Debug\EntityFramework.xml
+C:\Users\ZANA\Desktop\Github-Projelerim\Msku\Proje\GorevYonetimSistemi.EntitySiniflar\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ZANA\Desktop\Github-Projelerim\Msku\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.csprojAssemblyReference.cache
+C:\Users\ZANA\Desktop\Github-Projelerim\Msku\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.csproj.CoreCompileInputs.cache
+C:\Users\ZANA\Desktop\Github-Projelerim\Msku\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.csproj.CopyComplete
+C:\Users\ZANA\Desktop\Github-Projelerim\Msku\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.dll
+C:\Users\ZANA\Desktop\Github-Projelerim\Msku\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.pdb
