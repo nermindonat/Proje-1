@@ -106,6 +106,7 @@
                                                     <i class="icofont icofont-star text-warning"></i>
                                                 </div>
                                             </td>
+
                                             <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Google Inc</a></td>
                                             <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</a></td>
                                             <td class="email-attch"><a href="#"><i class="icofont icofont-clip"></i></a></td>

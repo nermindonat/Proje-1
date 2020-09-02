@@ -77,7 +77,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\AdminBildirim.aspx" />
+    <Content Include="Admin\AdminBildirimDetay.aspx" />
     <Content Include="Admin\AdminGorev.aspx" />
+    <Content Include="Admin\AdminToplanti.aspx" />
     <Content Include="bin\EntityFramework.dll" />
     <Content Include="bin\EntityFramework.SqlServer.dll" />
     <Content Include="bin\EntityFramework.SqlServer.xml" />
@@ -2263,12 +2265,26 @@
     <Compile Include="Admin\AdminBildirim.aspx.designer.cs">
       <DependentUpon>AdminBildirim.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\AdminBildirimDetay.aspx.cs">
+      <DependentUpon>AdminBildirimDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminBildirimDetay.aspx.designer.cs">
+      <DependentUpon>AdminBildirimDetay.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\AdminGorev.aspx.cs">
       <DependentUpon>AdminGorev.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin\AdminGorev.aspx.designer.cs">
       <DependentUpon>AdminGorev.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminToplanti.aspx.cs">
+      <DependentUpon>AdminToplanti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminToplanti.aspx.designer.cs">
+      <DependentUpon>AdminToplanti.aspx</DependentUpon>
     </Compile>
     <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
