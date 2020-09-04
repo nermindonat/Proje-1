@@ -1,13 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace GorevYonetimSistemi.EntitySiniflar
 {
+    [Table("Kullanicilar")]
     public class Kullanici
     {
+        [Key]
         public int KisiId { get; set; }
         public int FkOkulId { get; set; }
         public int FkBolumId { get; set; }
@@ -18,6 +22,5 @@ namespace GorevYonetimSistemi.EntitySiniflar
         public string Soyad { get; set; }
         public string Email { get; set; }
         public string Sifre { get; set; }
-        public bool Yetki { get; set; }
     }
 }

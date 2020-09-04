@@ -10,6 +10,11 @@ namespace GorevYonetimSistemi.VeriKatmani
 {
     public class EntityContext:DbContext
     {
+        public EntityContext():base("EntityContext")
+        {
+            
+        }
+
         public DbSet<AnaBilimDal> AnaBilimDallar { get; set; }
         public DbSet<Atama> Atamalar { get; set; }
         public DbSet<Bildirim> Bildirimler { get; set; }
@@ -21,5 +26,9 @@ namespace GorevYonetimSistemi.VeriKatmani
         public DbSet<ToplantiDetay> ToplantiDetaylar { get; set; }
         public DbSet<Toplanti> Toplantilar { get; set; }
         public DbSet<Unvan> Unvanlar { get; set; }
+        public DbSet<KullaniciTur> KullaniciTurleri { get; set; }
+        public DbSet<KullaniciTurAtama> KullaniciTurAtamalar { get; set; }
+
+       
     }
 }

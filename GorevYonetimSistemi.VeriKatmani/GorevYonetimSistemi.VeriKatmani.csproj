@@ -53,7 +53,9 @@
   <ItemGroup>
     <Compile Include="EntityContext.cs" />
     <Compile Include="IIslemlerDal.cs" />
+    <Compile Include="IMetotDal.cs" />
     <Compile Include="IslemlerDal.cs" />
+    <Compile Include="MetotDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -8,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace GorevYonetimSistemi.EntitySiniflar
 {
-    [Table("AnaBilimDallar")]
-    public class AnaBilimDal
+    [Table("KullaniciTurAtama")]
+    public class KullaniciTurAtama
     {
-        [Key]
-        public int AbdId { get; set; }
-        public string AbdAd { get; set; }
+        public int KullaniciTurAtamaId { get; set; }
+        public int FkKisiId { get; set; }
+        public int FkKullaniciTurId { get; set; }
     }
 }
