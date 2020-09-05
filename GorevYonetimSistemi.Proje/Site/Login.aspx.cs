@@ -43,6 +43,7 @@ namespace GorevYonetimSistemi.Proje.Site
                 {
                     if (_metotDal.KullaniciTurListe(kullanici.KisiId, int.Parse(kullaniciDeger)) > 0)
                     {
+                        kullaniciTur.Text = turkceKarakterDonüstür(kullaniciTur.Text);
                         string url =  kullaniciTur + "Gorev.aspx";
                         Label1.Text = url;
                         Response.Redirect("/" + kullaniciTur + "/" + url);
@@ -61,5 +62,28 @@ namespace GorevYonetimSistemi.Proje.Site
             }
 
         }
+        public static string turkceKarakterDonüstür(string metin)
+        {
+            if (string.IsNullOrEmpty(metin))
+                metin = string.Empty;
+            metin = HttpContext.Current.Server.HtmlDecode(metin);
+            metin = metin.Trim();
+            metin = metin.Replace("ş", "s");
+            metin = metin.Replace("Ş", "S");
+            metin = metin.Replace("İ", "I");
+            metin = metin.Replace("I", "I");
+            metin = metin.Replace("ı", "i");
+            metin = metin.Replace("ö", "o");
+            metin = metin.Replace("Ö", "O");
+            metin = metin.Replace("ü", "u");
+            metin = metin.Replace("Ü", "U");
+            metin = metin.Replace("Ç", "c");
+            metin = metin.Replace("ç", "C");
+            metin = metin.Replace("ğ", "g");
+            metin = metin.Replace("Ğ", "G");
+            metin = metin.Trim();
+            return metin;
+        }
+
     }
 }

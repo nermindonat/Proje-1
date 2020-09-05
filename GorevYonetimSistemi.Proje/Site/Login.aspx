@@ -5,28 +5,32 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <!--[if lt IE 10]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Admindek Bootstrap admin template made using Bootstrap 4 and it has huge amount of ready made feature, UI components, pages which completely fulfills any dashboard needs." />
     <meta name="keywords" content="bootstrap, bootstrap admin template, admin theme, admin dashboard, dashboard template, admin template, responsive" />
     <meta name="author" content="colorlib" />
-    <link rel="icon" href="https://colorlib.com/polygon/admindek/files/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/Site/png/okul.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/waves.min.css" type="text/css" media="all">
-    <link rel="stylesheet" type="text/css" href="css/feather.css">
-    <link rel="stylesheet" type="text/css" href="css/themify-icons.css">
-    <link rel="stylesheet" type="text/css" href="css/icofont.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/pages.css">
+    <link rel="stylesheet" type="text/css" href="/Site/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Site/css/waves.min.css" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="/Site/css/feather.css">
+    <link rel="stylesheet" type="text/css" href="/Site/css/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="/Site/css/icofont.css">
+    <link rel="stylesheet" type="text/css" href="/Site/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/Site/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/Site/css/pages.css">
 
-    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="/Site/css/select2.min.css">
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-multiselect.css" />
-    <link rel="stylesheet" type="text/css" href="css/multi-select.css" />
+    <link rel="stylesheet" type="text/css" href="/Site/css/bootstrap-multiselect.css" />
+    <link rel="stylesheet" type="text/css" href="/Site/css/multi-select.css" />
     </head>
 <body themebg-pattern="theme1">
 
@@ -101,10 +105,9 @@
                                 <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                                 <div class="form-group form-primary">
                                     <div class="col-md-4">
-                                        <select runat="server" id="selectKullaniciTuru" name="selectKullaniciTuru" class="js-example-data-array">
+                                        <select runat="server" id="selectKullaniciTuru" name="selectKullaniciTuru" class="js-data-example-ajax">
                                         </select>
-                                            </div>
-
+                                    </div>
                                 </div>
                                 <div class="form-group form-primary">
                                     <input runat="server" id="tbxKullaniciAdi" type="text" name="user-name" class="form-control" required=""/>
@@ -197,15 +200,16 @@
 <![endif]-->
 
     <!-- Sayfaya Ait Script -->
-    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="js/jquery.min.js"></script>
-    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="js/jquery-ui.min.js"></script>
-    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="js/popper.min.js"></script>
-    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="js/bootstrap.min.js"></script>
-    <script src="js/waves.min.js" type="4878d7dfa7bc22a8dfa99416-text/javascript"></script>
-    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="js/jquery.slimscroll.js"></script>
-    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="js/modernizr.js"></script>
-    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="js/css-scrollbars.js"></script>
-    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="js/common-pages.js"></script>
+    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="/Site/js/jquery.min.js"></script>
+    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="/Site/js/jquery-ui.min.js"></script>
+    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="/Site/js/popper.min.js"></script>
+    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="/Site/js/bootstrap.min.js"></script>
+
+    <script src="/Site/js/waves.min.js" type="4878d7dfa7bc22a8dfa99416-text/javascript"></script>
+    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="/Site/js/jquery.slimscroll.js"></script>
+    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="/Site/js/modernizr.js"></script>
+    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="/Site/js/css-scrollbars.js"></script>
+    <script type="4878d7dfa7bc22a8dfa99416-text/javascript" src="/Site/js/common-pages.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" type="4878d7dfa7bc22a8dfa99416-text/javascript"></script>
     <script type="4878d7dfa7bc22a8dfa99416-text/javascript">
   window.dataLayer = window.dataLayer || [];
@@ -214,17 +218,34 @@
 
   gtag('config', 'UA-23581568-13');
     </script>
-    <script src="js/rocket-loader.min.js" data-cf-settings="4878d7dfa7bc22a8dfa99416-|49" defer=""></script>
+    <script src="/Site/js/rocket-loader.min.js" data-cf-settings="4878d7dfa7bc22a8dfa99416-|49" defer=""></script>
 
 
     <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/select2.full.min.js"></script>
 
-    <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/bootstrap-multiselect.js">
-    </script>
+    <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/bootstrap-multiselect.js"></script>
     <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/jquery.multi-select.js"></script>
     <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/jquery.quicksearch.js"></script>
 
     <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/select2-custom.js"></script>
     <!-- Sayfaya Ait Script -->
+
+<!-- Yeni Eklenenler -->
+    <script src="/Site/js/pcoded.min.js" type="88add89075ed2b878b934720-text/javascript"></script>
+    <script src="/Site/js/vertical-layout.min.js" type="88add89075ed2b878b934720-text/javascript"></script>
+    <script src="/Site/js/jquery.mcustomscrollbar.concat.min.js" type="88add89075ed2b878b934720-text/javascript"></script>
+    <script src="/Site/js/script.js" type="88add89075ed2b878b934720-text/javascript"></script>
+    <script data-cf-settings="88add89075ed2b878b934720-|49" defer="" src="/Site/js/rocket-loader.min.js"></script>
+
+    <script src="/Site/js/datatables.buttons.min.js" type="7ce0e70970bcaec788845106-text/javascript"></script>
+
+    <script src="/Site/js/datatables.bootstrap4.min.js" type="7ce0e70970bcaec788845106-text/javascript"></script>
+    <script src="/Site/js/datatables.responsive.min.js" type="7ce0e70970bcaec788845106-text/javascript"></script>
+
+    <script src="/Site/js/data-table-custom.js" type="7ce0e70970bcaec788845106-text/javascript"></script>
+
+    <script data-cf-settings="7ce0e70970bcaec788845106-|49" defer="" src="/Site/js/rocket-loader.min.js"></script>
+<!-- Yeni Eklenenler -->
+
 </body>
 </html>

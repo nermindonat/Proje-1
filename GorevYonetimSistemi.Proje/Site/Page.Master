@@ -476,7 +476,7 @@
     <script src="/Site/js/pcoded.min.js" type="88add89075ed2b878b934720-text/javascript"></script>
     <script src="/Site/js/vertical-layout.min.js" type="88add89075ed2b878b934720-text/javascript"></script>
     <script src="/Site/js/jquery.mcustomscrollbar.concat.min.js" type="88add89075ed2b878b934720-text/javascript"></script>
-    <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/script.js"></script>
+    <script src="/Site/js/script.js" type="88add89075ed2b878b934720-text/javascript"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
         type="88add89075ed2b878b934720-text/javascript"></script>
