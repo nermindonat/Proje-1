@@ -8,6 +8,6 @@ namespace GorevYonetimSistemi.VeriKatmani
 {
     public interface IMetotDal
     {
-        int KullaniciTurListe(int kisiId, int kullaniciTurId);
+        List<object> KullaniciTurListe(int kisiId, int kullaniciTurId);
     }
 }

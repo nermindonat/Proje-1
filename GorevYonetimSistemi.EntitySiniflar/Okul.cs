@@ -10,5 +10,7 @@ namespace GorevYonetimSistemi.EntitySiniflar
     {
         public int OkulId { get; set; }
         public string OkulAdi { get; set; }
+
+        
     }
 }

@@ -80,6 +80,7 @@
     <Content Include="Admin\AdminBildirimDetay.aspx" />
     <Content Include="Admin\AdminGorev.aspx" />
     <Content Include="Admin\AdminToplanti.aspx" />
+    <Content Include="Site\Default.aspx" />
     <Content Include="bin\EntityFramework.dll" />
     <Content Include="bin\EntityFramework.SqlServer.dll" />
     <Content Include="bin\EntityFramework.SqlServer.xml" />
@@ -2289,6 +2290,13 @@
     </Compile>
     <Compile Include="Admin\AdminToplanti.aspx.designer.cs">
       <DependentUpon>AdminToplanti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />

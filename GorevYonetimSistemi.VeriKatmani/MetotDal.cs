@@ -8,21 +8,24 @@ namespace GorevYonetimSistemi.VeriKatmani
 {
     public class MetotDal : IMetotDal
     {
-        public int KullaniciTurListe(int kisiId, int kullaniciTurId)
+        public List<object> KullaniciTurListe(int kisiId, int kullaniciTurId)
         {
+            
             using (EntityContext context = new EntityContext())
             {
                 IQueryable<object> kullaniciTurListe = (from i in context.KullaniciTurleri
                                          join c in context.KullaniciTurAtamalar
                                              on i.KullaniciTurId
                                              equals c.FkKullaniciTurId
+                                         join k in context.Kullanicilar on c.FkKisiId equals k.KisiId 
                                          where c.FkKisiId == kisiId && c.FkKullaniciTurId == kullaniciTurId
                                                         select new
                                                         {
-                                                             
+                                                             KisiAdSoyad = k.Ad + " "+ k.Soyad,
+                                                             KullaniciTuru = i.KullaniciTurAd
                                                         });
-
-                return kullaniciTurListe.Count();
+                List<object> liste = new List<object>(kullaniciTurListe);
+                return liste;
 
             }
         }
