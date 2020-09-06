@@ -95,13 +95,13 @@ namespace GorevYonetimSistemi.VeriKatmani
 
             List<Kullanici> kullanicilar = new List<Kullanici>()
             {
-                new Kullanici(){Ad="Hüseyin" , Soyad = "Gürüler", Email = "hg@gmail.com"
+                new Kullanici(){Ad="John" , Soyad = "Doe", Email = "jd@gmail.com"
                     , FkAbdId = 1,FkBolumId=1, FkIdariGorevUnvanId = 1, FkOkulId = 1,FkUnvanId=1,
-                    Sifre="h1"
+                    Sifre="jd1" , Fotograf = "f-1.png"
                 },
-                new Kullanici(){Ad="İlhan" , Soyad = "Tarımer", Email = "ilt@gmail.com"
+                new Kullanici(){Ad="Josef" , Soyad = "Arizola", Email = "ja@gmail.com"
                     , FkAbdId = 1,FkBolumId=1, FkIdariGorevUnvanId = 1, FkOkulId = 1,FkUnvanId=1,
-                    Sifre="i1"
+                    Sifre="ja1", Fotograf = "f-2.png"
                 }
             };
 

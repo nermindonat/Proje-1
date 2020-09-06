@@ -46,8 +46,15 @@ namespace GorevYonetimSistemi.Proje.Site
                     {
                         //string url =  kullaniciTur + "Gorev.aspx";
                         //Response.Redirect("/" + kullaniciTur + "/" + url);
-                        
+                        foreach (var kullaniciTurModel in metot)
+                        {
+                            Session["KullaniciTur"] = kullaniciTurModel.KullaniciTur;
+                            Session["AdSoyad"] = kullaniciTurModel.AdSoyad;
+                            Session["KullaniciId"] = kullanici.KisiId;
+                            Session["Fotograf"] = kullaniciTurModel.Fotograf;
+                        }
                         Response.Redirect("Default.aspx");
+                        
 
 
                     }

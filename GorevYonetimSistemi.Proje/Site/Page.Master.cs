@@ -12,6 +12,18 @@ namespace GorevYonetimSistemi.Proje.Site
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            if (string.IsNullOrEmpty((string)Session["AdSoyad"]))
+            {
+                Response.Redirect("/Site/Login.aspx");
+            }
+
+
+        }
+
+        protected void cikis_OnServerClick(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Response.Redirect("/Site/Login.aspx");
         }
     }
 }

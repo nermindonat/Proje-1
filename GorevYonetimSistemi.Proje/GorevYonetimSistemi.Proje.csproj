@@ -1736,6 +1736,8 @@
     <Content Include="Site\png\details_close.png" />
     <Content Include="Site\png\details_open.png" />
     <Content Include="Site\png\euclid.png" />
+    <Content Include="Site\png\f-1.png" />
+    <Content Include="Site\png\f-2.png" />
     <Content Include="Site\png\jquery.minicolors.png" />
     <Content Include="Site\png\layers-2x.png" />
     <Content Include="Site\png\layers.png" />
