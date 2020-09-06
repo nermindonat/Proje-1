@@ -21,13 +21,21 @@
     <link rel="stylesheet" type="text/css" href="css/icofont.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/our-style.css">
+
     <link rel="stylesheet" type="text/css" href="css/pages.css">
 
     <link rel="stylesheet" href="css/select2.min.css">
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap-multiselect.css" />
     <link rel="stylesheet" type="text/css" href="css/multi-select.css" />
-    </head>
+    
+    <style>
+        #selectKullaniciTuru {
+            width: 100% !important;
+        }
+    </style>
+</head>
 <body themebg-pattern="theme1">
 
     <div class="theme-loader">
@@ -99,20 +107,20 @@
                                     </div>
                                 </div>
                                 <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-                                <div class="form-group form-primary">
-                                    <div class="col-md-4">
-                                        <select runat="server" id="selectKullaniciTuru" name="selectKullaniciTuru" class="js-example-data-array">
+                                <div class="row form-group form-primary ">
+                                    <div class="col-md-12 ">
+                                        <select runat="server" id="selectKullaniciTuru" name="selectKullaniciTuru" class="js-example-data-array text-white">
                                         </select>
-                                            </div>
+                                    </div>
 
                                 </div>
                                 <div class="form-group form-primary">
-                                    <input runat="server" id="tbxKullaniciAdi" type="text" name="user-name" class="form-control" required=""/>
+                                    <input runat="server" id="tbxKullaniciAdi" type="text" name="user-name" class="form-control" required="" />
                                     <span class="form-bar"></span>
                                     <label class="float-label">Kullanıcı Adı</label>
                                 </div>
                                 <div class="form-group form-primary">
-                                    <input runat="server" id="tbxSifre" type="password" name="password" class="form-control" required=""/>
+                                    <input runat="server" id="tbxSifre" type="password" name="password" class="form-control" required="" />
                                     <span class="form-bar"></span>
                                     <label class="float-label">Şifre</label>
                                 </div>
@@ -132,7 +140,7 @@
                                 </div>
                                 <div class="row m-t-30">
                                     <div class="col-md-12">
-                                        <button runat="server" id="btnGiris" type="button" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20" OnServerClick="btnGiris_OnServerClick">Giriş Yap</button>
+                                        <button runat="server" id="btnGiris" type="button" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20" onserverclick="btnGiris_OnServerClick">Giriş Yap</button>
                                     </div>
                                 </div>
                             </div>
@@ -226,5 +234,22 @@
 
     <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/select2-custom.js"></script>
     <!-- Sayfaya Ait Script -->
+
+    <!-- Yeni Eklenenler -->
+    <script src="/Site/js/pcoded.min.js" type="88add89075ed2b878b934720-text/javascript"></script>
+    <script src="/Site/js/vertical-layout.min.js" type="88add89075ed2b878b934720-text/javascript"></script>
+    <script src="/Site/js/jquery.mcustomscrollbar.concat.min.js" type="88add89075ed2b878b934720-text/javascript"></script>
+    <script src="/Site/js/script.js" type="88add89075ed2b878b934720-text/javascript"></script>
+    <script data-cf-settings="88add89075ed2b878b934720-|49" defer="" src="/Site/js/rocket-loader.min.js"></script>
+
+    <script src="/Site/js/datatables.buttons.min.js" type="7ce0e70970bcaec788845106-text/javascript"></script>
+
+    <script src="/Site/js/datatables.bootstrap4.min.js" type="7ce0e70970bcaec788845106-text/javascript"></script>
+    <script src="/Site/js/datatables.responsive.min.js" type="7ce0e70970bcaec788845106-text/javascript"></script>
+
+    <script src="/Site/js/data-table-custom.js" type="7ce0e70970bcaec788845106-text/javascript"></script>
+
+    <script data-cf-settings="7ce0e70970bcaec788845106-|49" defer="" src="/Site/js/rocket-loader.min.js"></script>
+    <!-- Yeni Eklenenler -->
 </body>
 </html>

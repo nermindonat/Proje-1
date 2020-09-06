@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,86 @@ namespace GorevYonetimSistemi.VeriKatmani
     {
         protected override void Seed(EntityContext context)
         {
+            
+
+            List<AnaBilimDal> anaBilimDallar=new List<AnaBilimDal>()
+            {
+                new AnaBilimDal(){AbdAd = "Bilgisayar Bilimi"},
+                new AnaBilimDal(){AbdAd = "Yazılım Bilimi"},
+
+            };
+
+            foreach (var anaBilimDal in anaBilimDallar)
+            {
+                context.AnaBilimDallar.Add(anaBilimDal);
+            }
+
+            context.SaveChanges();
+
+            
+            List<Okul> okullar = new List<Okul>()
+            {
+                new Okul(){OkulAdi = "Teknoloji Fakültesi"},
+                new Okul(){OkulAdi = "Fen Fakültesi"},
+
+            };
+
+            foreach (var okul in okullar)
+            {
+                context.Okullar.Add(okul);
+            }
+
+            context.SaveChanges();
+
+            List<Bolum> bolumler = new List<Bolum>()
+            {
+                new Bolum(){BolumAdi = "Bilişim Sistemleri Mühendisliği",FkOkulId =1 },
+                new Bolum(){BolumAdi = "Enerji Sistemleri Mühendisliği",FkOkulId = 1},
+                new Bolum(){BolumAdi = "Bilgisayar Mühendisliği",FkOkulId = 1},
+            };
+
+
+            foreach (var bolum in bolumler)
+            {
+                context.Bolumler.Add(bolum);
+            }
+
+            context.SaveChanges();
+
+
+            List<IdariGorevUnvan> idariGorevUnvanlar = new List<IdariGorevUnvan>()
+            {
+                new IdariGorevUnvan(){IdariGorevUnvanAd = "Bölüm başkanı"},
+                new IdariGorevUnvan(){IdariGorevUnvanAd = "Bölüm başkan yardımcısı"},
+                new IdariGorevUnvan(){IdariGorevUnvanAd = "Dekan"},
+
+
+            };
+
+            foreach (var idariGorevUnvan in idariGorevUnvanlar)
+            {
+                context.IdariGorevUnvanlar.Add(idariGorevUnvan);
+            }
+
+            context.SaveChanges();
+
+            
+
+            List<Unvan> unvanlar = new List<Unvan>()
+            {
+                new Unvan(){UnvanAd = "Dr"},
+                new Unvan(){UnvanAd = "Doçent"},
+                new Unvan(){UnvanAd = "Prof"},
+
+            };
+
+            foreach (var unvan in unvanlar)
+            {
+                context.Unvanlar.Add(unvan);
+            }
+
+            context.SaveChanges();
+
             List<Kullanici> kullanicilar = new List<Kullanici>()
             {
                 new Kullanici(){Ad="Hüseyin" , Soyad = "Gürüler", Email = "hg@gmail.com"
@@ -31,24 +112,48 @@ namespace GorevYonetimSistemi.VeriKatmani
 
             context.SaveChanges();
 
-            List<AnaBilimDal> anaBilimDallar=new List<AnaBilimDal>()
-            {
-                new AnaBilimDal(){AbdAd = "Bilgisayar Bilimi"},
-                new AnaBilimDal(){AbdAd = "Yazılım Bilimi"},
 
+            
+            List<Toplanti> toplantilar =new List<Toplanti>()
+            {
+                new Toplanti(){ToplantiAdi = "Staj Komisyonu",ToplantiIcerigi = "Toplantı Toplantı Toplantı Toplantı Toplantı",Yer = "Muğla Merkez"}
             };
 
-            foreach (var anaBilimDal in anaBilimDallar)
+            foreach (var toplanti in toplantilar)
             {
-                context.AnaBilimDallar.Add(anaBilimDal);
+                context.Toplantilar.Add(toplanti);
             }
 
             context.SaveChanges();
 
-            List<Atama> atamalar=new List<Atama>()
+            List<ToplantiDetay> toplantiDetaylar = new List<ToplantiDetay>()
+            {
+                new ToplantiDetay(){AlinanKararlar = "Notlar 10 Eylülde girilecek",FkToplantiId = 1,ToplantiDurum = true}
+            };
+
+            foreach (var toplantiDetay in toplantiDetaylar)
+            {
+                context.ToplantiDetaylar.Add(toplantiDetay);
+            }
+
+            context.SaveChanges();
+
+            List<Gorev> gorevler = new List<Gorev>()
+            {
+                new Gorev(){GorevAdi = "Staj Belgeleri İmzası",GorevIcerigi = "Staj Belgeleri İmzası Staj Belgeleri İmzası Staj Belgeleri İmzası",FkToplantiId = 1, Durum = true}
+            };
+
+            foreach (var gorev in gorevler)
+            {
+                context.Gorevler.Add(gorev);
+            }
+
+            context.SaveChanges();
+
+            List<Atama> atamalar = new List<Atama>()
             {
                 new Atama(){FkKisiId = 1, FkAtayanKisiId = 1, FkGorevId = 1},
-                new Atama(){FkKisiId = 1, FkAtayanKisiId = 1, FkGorevId = 2},
+                new Atama(){FkKisiId = 1, FkAtayanKisiId = 1, FkGorevId = 1},
                 new Atama(){FkKisiId = 2, FkAtayanKisiId = 1, FkGorevId = 1}
             };
 
@@ -84,61 +189,6 @@ namespace GorevYonetimSistemi.VeriKatmani
                 context.KullaniciTurAtamalar.Add(kullaniciTurAtama);
             }
 
-            context.SaveChanges();
-
-            List<Bolum> bolumler = new List<Bolum>()
-            {
-                new Bolum(){BolumAdi = "Bilişim Sistemleri Mühendisliği"},
-                new Bolum(){BolumAdi = "Enerji Sistemleri Mühendisliği"},
-                new Bolum(){BolumAdi = "Bilgisayar Mühendisliği"},
-            };
-
-
-            foreach (var bolum in bolumler)
-            {
-                context.Bolumler.Add(bolum);
-            }
-
-            context.SaveChanges();
-
-
-            List<IdariGorevUnvan> idariGorevUnvanlar = new List<IdariGorevUnvan>()
-            {
-                new IdariGorevUnvan(){IdariGorevUnvanAd = "Bölüm başkanı"},
-                new IdariGorevUnvan(){IdariGorevUnvanAd = "Bölüm başkan yardımcısı"},
-                new IdariGorevUnvan(){IdariGorevUnvanAd = "Dekan"},
-
-
-            };
-
-            foreach (var idariGorevUnvan in idariGorevUnvanlar)
-            {
-                context.IdariGorevUnvanlar.Add(idariGorevUnvan);
-            }
-
-            context.SaveChanges();
-
-            List<Okul> okullar = new List<Okul>()
-            {
-                new Okul(){OkulAdi = "Teknoloji Fakültesi"},
-                new Okul(){OkulAdi = "Fen Fakültesi"},
-                
-            };
-
-            foreach (var okul in okullar)
-            {
-                context.Okullar.Add(okul);
-            }
-
-            context.SaveChanges();
-
-            List<Unvan> unvanlar = new List<Unvan>()
-            {
-                new Unvan(){UnvanAd = "Dr"},
-                new Unvan(){UnvanAd = "Doçent"},
-                new Unvan(){UnvanAd = "Prof"},
-
-            };
             context.SaveChanges();
 
             base.Seed(context);

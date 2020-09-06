@@ -13,23 +13,25 @@ namespace GorevYonetimSistemi.EntitySiniflar
     {
         [Key]
         public int KisiId { get; set; }
-        [ForeignKey("FkOkulId")]
+        
         public int FkOkulId { get; set; }
-        [ForeignKey("FkBolumId")]
+        [ForeignKey("FkOkulId")]
+        public virtual Okul Okul { get; set; }
         public int FkBolumId { get; set; }
-        [ForeignKey("FkAbdId")]
+        [ForeignKey("FkBolumId")]
+        public virtual Bolum Bolum { get; set; }
         public int FkAbdId { get; set; }
-        [ForeignKey("FkUnvanId")]
+        [ForeignKey("FkAbdId")]
+        public virtual AnaBilimDal AnaBilimDal { get; set; }
         public int FkUnvanId { get; set; }
-        [ForeignKey("FkIdariGorevUnvanId")]
+        [ForeignKey("FkUnvanId")]
+        public virtual Unvan Unvan { get; set; }
         public int FkIdariGorevUnvanId { get; set; }
+        [ForeignKey("FkIdariGorevUnvanId")]
+        public virtual IdariGorevUnvan IdariGorevUnvan { get; set; }
         public string Ad { get; set; }
         public string Soyad { get; set; }
         public string Email { get; set; }
         public string Sifre { get; set; }
-
-        
-
-
     }
 }

@@ -12,7 +12,7 @@ namespace GorevYonetimSistemi.VeriKatmani
     {
         public EntityContext():base("EntityContext")
         {
-            
+            Database.SetInitializer(new DataInitializer());
         }
 
         public DbSet<AnaBilimDal> AnaBilimDallar { get; set; }

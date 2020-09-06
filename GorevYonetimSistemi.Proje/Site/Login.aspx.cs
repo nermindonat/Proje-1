@@ -32,7 +32,6 @@ namespace GorevYonetimSistemi.Proje.Site
 
         protected void btnGiris_OnServerClick(object sender, EventArgs e)
         {
-
             var kullaniciDeger = Request.Form["selectKullaniciTuru"];
             var kullaniciTur = selectKullaniciTuru.Items[int.Parse(kullaniciDeger)-1];
             string kullaniciAdi = tbxKullaniciAdi.Value;
