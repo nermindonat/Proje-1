@@ -14,7 +14,7 @@ namespace GorevYonetimSistemi.Proje.Site
     {
         IslemlerDal<Kullanici> _kullaniciDal = new IslemlerDal<Kullanici>();
         IslemlerDal<KullaniciTur> _kullaniciTurDal = new IslemlerDal<KullaniciTur>();
-
+        string deneme;
         MetotDal _metotDal = new MetotDal();
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -28,6 +28,8 @@ namespace GorevYonetimSistemi.Proje.Site
             selectKullaniciTuru.DataTextField = "KullaniciTurAd";
             selectKullaniciTuru.DataValueField = "KullaniciTurId";
             selectKullaniciTuru.DataBind();
+            
+            deneme += "Deneme";
         }
 
         protected void btnGiris_OnServerClick(object sender, EventArgs e)
