@@ -58,6 +58,7 @@
     <Compile Include="IslemlerDal.cs" />
     <Compile Include="MetotDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionKontrol.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GorevYonetimSistemi.EntitySiniflar\GorevYonetimSistemi.EntitySiniflar.csproj">

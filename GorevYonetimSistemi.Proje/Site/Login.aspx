@@ -29,11 +29,9 @@
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap-multiselect.css" />
     <link rel="stylesheet" type="text/css" href="css/multi-select.css" />
-    
+
     <style>
-        #selectKullaniciTuru {
-            width: 100% !important;
-        }
+        
     </style>
 </head>
 <body themebg-pattern="theme1">
@@ -106,13 +104,16 @@
                                         <h3 class="text-center txt-primary">Giriş Yap</h3>
                                     </div>
                                 </div>
-                                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-                                <div class="row form-group form-primary ">
-                                    <div class="col-md-12 ">
-                                        <select runat="server" id="selectKullaniciTuru" name="selectKullaniciTuru" class="js-example-data-array text-white">
-                                        </select>
+                                <div class="form-group form-primary text-center">
+                                    <asp:Label runat="server" ID="lblHata" CssClass="label label-danger hataLabel " Visible="False"></asp:Label>
+                                </div>
+                                <div class="form-group form-primary ">
+                                    <div class="row">
+                                        <div class="col-md-12 ">
+                                            <select runat="server" id="selectKullaniciTuru" name="selectKullaniciTuru" class="js-example-data-array text-white" style="width: 100%;">
+                                            </select>
+                                        </div>
                                     </div>
-
                                 </div>
                                 <div class="form-group form-primary">
                                     <input runat="server" id="tbxKullaniciAdi" type="text" name="user-name" class="form-control" required="" />

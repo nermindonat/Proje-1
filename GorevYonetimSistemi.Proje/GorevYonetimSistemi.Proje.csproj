@@ -231,6 +231,7 @@
     <Content Include="Site\css\treeview.css" />
     <Content Include="Site\css\waves.min.css" />
     <Content Include="Site\css\widget.css" />
+    <Content Include="Site\Deneme.aspx" />
     <Content Include="Site\gif\throbber.gif" />
     <Content Include="Site\Gorev.aspx" />
     <Content Include="Site\jpg\01.jpg" />
@@ -2371,6 +2372,13 @@
     </Compile>
     <Compile Include="Site\Bildirim.aspx.designer.cs">
       <DependentUpon>Bildirim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Deneme.aspx.cs">
+      <DependentUpon>Deneme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Deneme.aspx.designer.cs">
+      <DependentUpon>Deneme.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site\Gorev.aspx.cs">
       <DependentUpon>Gorev.aspx</DependentUpon>

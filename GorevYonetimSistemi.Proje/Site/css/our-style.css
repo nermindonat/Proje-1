@@ -8,9 +8,32 @@ li.nav-item a:visited {
     font-weight: bold;
 }
 
-li.nav-item a {
+li.nav-item a[data-target] {
     color: #7b8aff;
     font-weight: bold;
     font-size: 20px;
 }
+
+#selectKullaniciTuru {
+    width: 100% !important;
+}
+
+ul#pills-tab li {
+    margin-bottom: 5px;
+}
+
+ul#pills-tab li:first-child {
+    margin-top: 15px;
+}
+
+label.float-label {
+    margin-top: 10px;
+}
+
+.hataLabel {
+    font-size: large !important;
+    margin: 25% 0% 25% 0%;
+   
+}
+
 

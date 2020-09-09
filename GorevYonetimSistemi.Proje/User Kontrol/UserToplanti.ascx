@@ -134,7 +134,7 @@
                                             </div>
                                             <div class="form-group row">
                                                 <label class="col-sm-2"></label>
-                                                <div class="col-md-6">
+                                                <div class="col-sm-6">
                                                     <button type="submit"
                                                         class="btn btn-primary m-b-0">
                                                         Kaydet
@@ -272,7 +272,7 @@
 
                                             <div class="form-group row">
                                                 <label class="col-sm-2"></label>
-                                                <div class="col-sm-4">
+                                                <div class="col-sm-6">
                                                     <button type="submit"
                                                         class="btn btn-primary m-b-0">
                                                         Kaydet
@@ -383,7 +383,7 @@
 
                                             <div class="form-group row">
                                                 <label class="col-sm-2"></label>
-                                                <div class="col-sm-4">
+                                                <div class="col-sm-6">
                                                     <button type="submit"
                                                         class="btn btn-primary m-b-0">
                                                         Kaydet

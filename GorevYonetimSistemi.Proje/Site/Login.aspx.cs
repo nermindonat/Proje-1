@@ -52,21 +52,21 @@ namespace GorevYonetimSistemi.Proje.Site
                             Session["AdSoyad"] = kullaniciTurModel.AdSoyad;
                             Session["KullaniciId"] = kullanici.KisiId;
                             Session["Fotograf"] = kullaniciTurModel.Fotograf;
+                            Session["KullaniciTurId"] = kullaniciDeger;
                         }
                         Response.Redirect("Default.aspx");
-                        
-
-
                     }
                     else
                     {
-                        Label1.Text = "Dur yolcu. Bilmeden gelip bastığın bu seçenek yanlıştır.Erken zamanda yolunu bulman dileğiyle.";
+                        lblHata.Visible = true;
+                        lblHata.Text = "Dur yolcu. Bilmeden gelip bastığın bu seçenek yanlıştır.Erken zamanda yolunu bulman dileğiyle.";
                     }
                 }
 
                 else
                 {
-                    Label1.Text = "Hatalı Giriş!";
+                    lblHata.Visible = true;
+                    lblHata.Text = "Hatalı Giriş!";
                 }
             }
 
