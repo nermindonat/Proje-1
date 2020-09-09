@@ -59,7 +59,7 @@ namespace GorevYonetimSistemi.Proje.Site
                     else
                     {
                         lblHata.Visible = true;
-                        lblHata.Text = "Dur yolcu. Bilmeden gelip bastığın bu seçenek yanlıştır.Erken zamanda yolunu bulman dileğiyle.";
+                        lblHata.Text = "Hatalı giriş";
                     }
                 }
 
