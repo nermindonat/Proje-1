@@ -107,8 +107,8 @@
                                                 </div>
                                             </td>
 
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Google Inc</a></td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Google Inc</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</a></td>
                                             <td class="email-attch"><a href="#"><i class="icofont icofont-clip"></i></a></td>
                                             <td class="email-time">08:01 AM</td>
                                         </tr>
@@ -124,8 +124,8 @@
                                                     <i class="icofont icofont-star text-primary"></i>
                                                 </div>
                                             </td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Liu Koi Yan</a></td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Charts waiting for you</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Liu Koi Yan</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Charts waiting for you</a></td>
                                             <td class="email-attch"><a href="#"><i class="icofont icofont-clip"></i></a></td>
                                             <td class="email-time">07:15 AM</td>
                                         </tr>
@@ -180,8 +180,8 @@
                                                     <i class="icofont icofont-star text-primary"></i>
                                                 </div>
                                             </td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Liu Koi Yan</a></td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Charts waiting for you</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Liu Koi Yan</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Charts waiting for you</a></td>
                                             <td class="email-attch"><a href="#"><i class="icofont icofont-clip"></i></a></td>
                                             <td class="email-time">07:15 AM</td>
                                         </tr>
@@ -197,8 +197,8 @@
                                                     <i class="icofont icofont-star text-warning"></i>
                                                 </div>
                                             </td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Google Inc</a></td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Google Inc</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</a></td>
                                             <td class="email-attch"><a href="#"><i class="icofont icofont-clip"></i></a></td>
                                             <td class="email-time">08:01 AM</td>
                                         </tr>
@@ -256,8 +256,8 @@
                                                     <i class="icofont icofont-star text-danger"></i>
                                                 </div>
                                             </td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Rinky Behl</a></td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Photoshop updates are available</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Rinky Behl</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Photoshop updates are available</a></td>
                                             <td class="email-attch"><a href="#"><i class="icofont icofont-clip"></i></a></td>
                                             <td class="email-time">10:01 AM</td>
                                         </tr>
@@ -273,8 +273,8 @@
                                                     <i class="icofont icofont-star text-primary"></i>
                                                 </div>
                                             </td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Harry John</a></td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">New upcoming data available</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Harry John</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">New upcoming data available</a></td>
                                             <td class="email-attch"><a href="#"><i class="icofont icofont-clip"></i></a></td>
                                             <td class="email-time">11:01 AM</td>
                                         </tr>
@@ -332,8 +332,8 @@
                                                     <i class="icofont icofont-star text-primary"></i>
                                                 </div>
                                             </td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Liu Koi Yan</a></td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Charts waiting for you</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Liu Koi Yan</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Charts waiting for you</a></td>
                                             <td class="email-attch"><a href="#"><i class="icofont icofont-clip"></i></a></td>
                                             <td class="email-time">07:15 AM</td>
                                         </tr>
@@ -349,8 +349,8 @@
                                                     <i class="icofont icofont-star text-warning"></i>
                                                 </div>
                                             </td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Google Inc</a></td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Google Inc</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</a></td>
                                             <td class="email-attch"><a href="#"><i class="icofont icofont-clip"></i></a></td>
                                             <td class="email-time">08:01 AM</td>
                                         </tr>
@@ -405,8 +405,8 @@
                                                     <i class="icofont icofont-star text-danger"></i>
                                                 </div>
                                             </td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Rinky Behl</a></td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Photoshop updates are available</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Rinky Behl</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Photoshop updates are available</a></td>
                                             <td class="email-attch"><a href="#"><i class="icofont icofont-clip"></i></a></td>
                                             <td class="email-time">10:01 AM</td>
                                         </tr>
@@ -422,8 +422,8 @@
                                                     <i class="icofont icofont-star text-primary"></i>
                                                 </div>
                                             </td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">Harry John</a></td>
-                                            <td><a href="BildirimDetay.aspx" class="email-name waves-effect">New upcoming data available</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Harry John</a></td>
+                                            <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">New upcoming data available</a></td>
                                             <td class="email-attch"><a href="#"><i class="icofont icofont-clip"></i></a></td>
                                             <td class="email-time">11:01 AM</td>
                                         </tr>

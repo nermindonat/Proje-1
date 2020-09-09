@@ -106,8 +106,8 @@
                                         <ul class="show-notification notification-view dropdown-menu" data-dropdown-in="fadeIn"
                                             data-dropdown-out="fadeOut">
                                             <li>
-                                                <h6>Notifications</h6>
-                                                <label class="label label-danger">New</label>
+                                                <h6>Bildirimler</h6>
+                                                <label class="label label-danger">Yeni mesajlar</label>
                                             </li>
                                             <li>
                                                 <div class="media">
@@ -125,7 +125,7 @@
                                             </li>
                                             <li>
                                                 <div class="media">
-                                                    <img class="img-radius" src="jpg/avatar-3.jpg"
+                                                    <img class="img-radius" src="/Site/jpg/avatar-3.jpg"
                                                         alt="Generic placeholder image">
                                                     <div class="media-body">
                                                         <h5 class="notification-user">Joseph William</h5>
@@ -153,7 +153,7 @@
                                             </li>
 
                                             <li>
-                                                <a href="Bildirim.aspx"
+                                                <a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>Bildirim.aspx"
                                                     class="btn waves-effect waves-light btn-github btn-square">Tümünü göster
                                                 </a>
                                             </li>
