@@ -55,7 +55,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        
+
         <div id="pcoded" class="pcoded">
             <div class="pcoded-overlay-box"></div>
             <div class="pcoded-container navbar-wrapper">
@@ -198,7 +198,7 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a runat="server" href="#" OnServerClick="cikis_OnServerClick" id="cikis">
+                                                <a runat="server" href="#" onserverclick="cikis_OnServerClick" id="cikis">
                                                     <i class="feather icon-log-out"></i>Çıkış Yap
                                                 </a>
                                             </li>

@@ -13,5 +13,23 @@ namespace GorevYonetimSistemi.Proje.User_Kontrol
 
     public partial class UserGorev
     {
+
+        /// <summary>
+        /// dlGorev control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView dlGorev;
+
+        /// <summary>
+        /// lvGorevAtama control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView lvGorevAtama;
     }
 }

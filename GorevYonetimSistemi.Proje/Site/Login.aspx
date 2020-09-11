@@ -31,7 +31,6 @@
     <link rel="stylesheet" type="text/css" href="css/multi-select.css" />
 
     <style>
-        
     </style>
 </head>
 <body themebg-pattern="theme1">
@@ -86,7 +85,7 @@
             </div>
         </div>
     </div>
-<div class="theme-loader">
+    <div class="theme-loader">
         <div class="loader-track">
             <div class="preloader-wrapper">
                 <div class="spinner-layer spinner-blue">
@@ -197,21 +196,15 @@
                             </div>
                         </div>
                     </form>
-
                 </div>
-
             </div>
-
         </div>
-
-
     </section>
-
 
     <!--[if lt IE 10]>
 <div class="ie-warning">
     <h1>Warning!!</h1>
-    <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+    <p>You are using an outdated version of Internet Explorer, please upgrade <br />to any of the following web browsers to access this website.</p>
     <div class="iew-container">
         <ul class="iew-download">
             <li>
@@ -274,7 +267,6 @@
   gtag('config', 'UA-23581568-13');
     </script>
     <script src="js/rocket-loader.min.js" data-cf-settings="4878d7dfa7bc22a8dfa99416-|49" defer=""></script>
-
 
     <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/select2.full.min.js"></script>
 

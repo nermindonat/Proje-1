@@ -9,7 +9,7 @@ using GorevYonetimSistemi.EntitySiniflar;
 
 namespace GorevYonetimSistemi.VeriKatmani
 {
-    public class DataInitializer:CreateDatabaseIfNotExists<EntityContext>
+    public class DataInitializer:DropCreateDatabaseAlways<EntityContext>
     {
         protected override void Seed(EntityContext context)
         {
@@ -152,8 +152,7 @@ namespace GorevYonetimSistemi.VeriKatmani
 
             List<Atama> atamalar = new List<Atama>()
             {
-                new Atama(){FkKisiId = 1, FkAtayanKisiId = 1, FkGorevId = 1},
-                new Atama(){FkKisiId = 1, FkAtayanKisiId = 1, FkGorevId = 1},
+                new Atama(){FkKisiId = 1, FkAtayanKisiId = 2, FkGorevId = 1},
                 new Atama(){FkKisiId = 2, FkAtayanKisiId = 1, FkGorevId = 1}
             };
 
@@ -190,6 +189,16 @@ namespace GorevYonetimSistemi.VeriKatmani
             }
 
             context.SaveChanges();
+
+            List<ToplantiAtama> toplantiAtamalar = new List<ToplantiAtama>()
+            {
+                new ToplantiAtama(){FkToplantiId = 1, FkIlgiliKisiId = 1, FkAtayanKisiId = 2}
+            };
+
+            foreach (var toplantiAtama in toplantiAtamalar)
+            {
+                context.ToplantiAtama.Add(toplantiAtama);
+            }
 
             base.Seed(context);
         }

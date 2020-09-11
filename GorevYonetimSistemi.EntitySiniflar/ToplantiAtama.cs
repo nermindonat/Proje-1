@@ -8,16 +8,23 @@ using System.Threading.Tasks;
 
 namespace GorevYonetimSistemi.EntitySiniflar
 {
-    [Table("ToplantiDetay")]
-    public class ToplantiDetay
+    [Table("ToplantiAtama")]
+    public class ToplantiAtama
     {
         [Key]
-        public int ToplantiDetayId { get; set; }
+        public int ToplantiAtamaId { get; set; }
+
         public int FkToplantiId { get; set; }
         [ForeignKey("FkToplantiId")]
-        public virtual Toplanti Toplanti { get; set; }
-        public bool ToplantiDurum { get; set; }
-        public string AlinanKararlar { get; set; }
-        public List<Toplanti> Toplantilar;
+        public Toplanti Toplanti { get; set; }
+
+        public int FkIlgiliKisiId { get; set; }
+        [ForeignKey("FkIlgiliKisiId")]
+        public Kullanici Kullanici { get; set; }
+
+        public int FkAtayanKisiId { get; set; }
+        
+
+
     }
 }

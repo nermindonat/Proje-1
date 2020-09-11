@@ -10,5 +10,7 @@ namespace GorevYonetimSistemi.VeriKatmani
     public interface IMetotDal
     {
         List<KullaniciTurModel> KullaniciTurListe(int kisiId, int kullaniciTurId);
+        List<GorevAtama> GorevAtama();
+        List<object> ToplantiDetay();
     }
 }

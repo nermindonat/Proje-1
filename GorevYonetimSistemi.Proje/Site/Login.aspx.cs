@@ -1,21 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using GorevYonetimSistemi.EntitySiniflar;
+﻿using GorevYonetimSistemi.EntitySiniflar;
 using GorevYonetimSistemi.VeriKatmani;
+using System;
 
 namespace GorevYonetimSistemi.Proje.Site
 {
     public partial class Login : System.Web.UI.Page
     {
-        IslemlerDal<Kullanici> _kullaniciDal = new IslemlerDal<Kullanici>();
-        IslemlerDal<KullaniciTur> _kullaniciTurDal = new IslemlerDal<KullaniciTur>();
-        string deneme;
-        MetotDal _metotDal = new MetotDal();
+        private IslemlerDal<Kullanici> _kullaniciDal = new IslemlerDal<Kullanici>();
+        private IslemlerDal<KullaniciTur> _kullaniciTurDal = new IslemlerDal<KullaniciTur>();
+        private MetotDal _metotDal = new MetotDal();
+
         protected void Page_Load(object sender, EventArgs e)
         {
             KullaniciTurListele();
@@ -28,14 +22,13 @@ namespace GorevYonetimSistemi.Proje.Site
             selectKullaniciTuru.DataTextField = "KullaniciTurAd";
             selectKullaniciTuru.DataValueField = "KullaniciTurId";
             selectKullaniciTuru.DataBind();
-            
-            deneme += "Deneme";
+
         }
 
         protected void btnGiris_OnServerClick(object sender, EventArgs e)
         {
             var kullaniciDeger = Request.Form["selectKullaniciTuru"];
-            var kullaniciTur = selectKullaniciTuru.Items[int.Parse(kullaniciDeger)-1];
+            var kullaniciTur = selectKullaniciTuru.Items[int.Parse(kullaniciDeger) - 1];
             string kullaniciAdi = tbxKullaniciAdi.Value;
             string sifre = tbxSifre.Value;
             var liste = _kullaniciDal.Listele<Kullanici>();
@@ -64,14 +57,12 @@ namespace GorevYonetimSistemi.Proje.Site
                         lblHata.Text = "Hatalı giriş";
                     }
                 }
-
                 else
                 {
                     lblHata.Visible = true;
                     lblHata.Text = "Hatalı Giriş!";
                 }
             }
-
         }
     }
 }

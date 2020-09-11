@@ -2,7 +2,6 @@ select.js-example-data-array {
     width: 300% !important;
 }
 
-
 li.nav-item a:visited {
     background-color: #4099ff !important;
     font-weight: bold;
@@ -22,9 +21,9 @@ ul#pills-tab li {
     margin-bottom: 5px;
 }
 
-ul#pills-tab li:first-child {
-    margin-top: 15px;
-}
+    ul#pills-tab li:first-child {
+        margin-top: 15px;
+    }
 
 label.float-label {
     margin-top: 10px;
@@ -33,7 +32,4 @@ label.float-label {
 .hataLabel {
     font-size: large !important;
     margin: 25% 0% 25% 0%;
-   
 }
-
-

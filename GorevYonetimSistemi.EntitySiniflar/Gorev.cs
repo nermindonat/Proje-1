@@ -12,6 +12,7 @@ namespace GorevYonetimSistemi.EntitySiniflar
     [Table("Gorevler")]
     public class Gorev
     {
+        private DateTime? _sonTarihSaat;
         [Key]
         public int GorevId { get; set; }
         public int FkToplantiId { get; set; }
@@ -19,8 +20,19 @@ namespace GorevYonetimSistemi.EntitySiniflar
         public virtual Toplanti Toplanti { get; set; }
         public string GorevAdi { get; set; }
         public string GorevIcerigi { get; set; }
-        public DateTime? SonTarih { get; set; }
-        public DateTime? SonSaat { get; set; }
+
+        public DateTime SonTarihSaat
+        {
+            get
+            {
+                return _sonTarihSaat.HasValue ? _sonTarihSaat.Value : DateTime.Now.AddDays(7);
+            }
+            set
+            {
+                _sonTarihSaat = value;
+            }
+        }
+
         public bool Durum { get; set; }
 
     }

@@ -28,6 +28,7 @@ namespace GorevYonetimSistemi.VeriKatmani
         public DbSet<Unvan> Unvanlar { get; set; }
         public DbSet<KullaniciTur> KullaniciTurleri { get; set; }
         public DbSet<KullaniciTurAtama> KullaniciTurAtamalar { get; set; }
+        public DbSet<ToplantiAtama> ToplantiAtama { get; set; }
 
        
     }

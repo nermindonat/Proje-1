@@ -22,5 +22,8 @@ namespace GorevYonetimSistemi.EntitySiniflar
         public int FkGorevId { get; set; }
         [ForeignKey("FkGorevId")]
         public virtual Gorev Gorev { get; set; }
+
+        public List<Kullanici> Kullanicilar { get; set; }
+        public List<Gorev> Gorevler { get; set; }
     }
 }
