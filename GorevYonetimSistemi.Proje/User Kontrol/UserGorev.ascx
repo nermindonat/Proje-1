@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="UserGorev.ascx.cs" Inherits="GorevYonetimSistemi.Proje.User_Kontrol.UserGorev" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="UserGorev.ascx.cs" ClientIDMode="Static" Inherits="GorevYonetimSistemi.Proje.User_Kontrol.UserGorev" %>
 
 <div class="row">
     <div class="col-sm-12">
@@ -7,7 +7,7 @@
             <ul class="nav nav-tabs">
                 <li class="nav-item">
                     <a href="" data-target="#evrakKayit" data-toggle="tab"
-                        class="nav-link active">
+                        class="nav-link active" >
                         <strong>Görev Kayıt</strong>
                     </a>
                 </li>
@@ -34,7 +34,7 @@
                                                 <input type="hidden"
                                                     class="form-control"
                                                     name="gorevId"
-                                                    id="gorevId">
+                                                    id="gorevId" runat="server" />
                                                 <span class="messages"></span>
                                             </div>
                                         </div>
@@ -59,7 +59,7 @@
                                                 <input type="text"
                                                     class="form-control max-width"
                                                     name="gorevAdi"
-                                                    id="gorevAdi">
+                                                    id="gorevAdi" runat="server" ClientIDMode="Static" />
                                                 <span class="messages"></span>
                                             </div>
                                         </div>
@@ -71,7 +71,7 @@
                                             <div class="col-sm-4">
                                                 <textarea name="gorevIcerik" id="gorevIcerik" cols="70"
                                                     rows="10"
-                                                    class="form-control max-width"></textarea>
+                                                    class="form-control max-width" runat="server"></textarea>
                                                 <span class="messages"></span>
                                             </div>
                                         </div>
@@ -81,7 +81,7 @@
                                                 <input type="file"
                                                     class="form-control max-width"
                                                     name="gorev"
-                                                    id="gorev">
+                                                    id="gorev" runat="server" />
                                                 <span class="messages"></span>
                                             </div>
                                         </div>
@@ -94,7 +94,7 @@
                                                 <input type="text"
                                                     class="form-control max-width"
                                                     name="sonTarih"
-                                                    id="sonTarih">
+                                                    id="sonTarih" runat="server" />
                                                 <span class="messages"></span>
                                             </div>
                                         </div>
@@ -107,7 +107,7 @@
                                                 <input type="text"
                                                     class="form-control max-width"
                                                     name="sonSaat"
-                                                    id="sonSaat">
+                                                    id="sonSaat" runat="server" />
                                                 <span class="messages"></span>
                                             </div>
                                         </div>
@@ -115,7 +115,7 @@
                                             <label class="col-sm-2"></label>
                                             <div class="col-sm-6">
                                                 <button type="submit"
-                                                    class="btn btn-primary m-b-0">
+                                                    class="btn btn-primary m-b-0" runat="server" onserverclick="OnServerClick">
                                                     Kaydet
                                                 </button>
                                                 <button class="btn waves-effect waves-light btn-danger btn-square">
@@ -162,7 +162,6 @@
                                                             <td></td>
                                                             <td><%#Eval("SonTarihSaat","{0:dd/MM/yyyy}") %></td>
                                                             <td><%#Eval("SonTarihSaat","{0:hh.mm tt}") %></td>
-
                                                         </tr>
                                                     </ItemTemplate>
                                                 </asp:ListView>
@@ -174,26 +173,30 @@
                         </div>
                     </div>
                     <!--/row-->
-
                 </div>
                 <div class="tab-pane " id="evrakAtama">
                     <div class="row">
                         <div class="col-sm-12 ">
                             <div class="card">
                                 <div class="card-block">
-                                    <form id="main" method="post"
-                                        novalidate>
+                                    <div id="main">
                                         <div class="form-group row">
                                             <label class="col-sm-2 col-form-label">Görev</label>
                                             <div class="col-sm-4">
-                                                <select class="js-example-data-array ">
-                                                    <option value="Seciniz">Seçiniz
-                                                    </option>
-                                                    <option value="1">Görev 1
-                                                    </option>
-                                                    <option value="1">Görev 2
-                                                    </option>
+                                                <select runat="server" id="selectGorevAtama" class="js-example-data-array ">
+                                                    
                                                 </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-sm-4">
+                                                
+                                                <textarea hidden name="tbxIlgiliKisiler" id="tbxIlgiliKisiler"
+                                                    cols="70"
+                                                    rows="10"
+                                                    class="form-control max-width" runat="server"></textarea>
+                                                
+                                                <span class="messages"></span>
                                             </div>
                                         </div>
                                         <div class="form-group row">
@@ -202,43 +205,7 @@
                                 Kişiler
                                             </label>
                                             <div class="col-sm-4 col-xl-6 m-b-30">
-                                                <select id="custom-headers"
-                                                    class="searchable"
-                                                    multiple="multiple">
-                                                    <option value="elem_1"
-                                                        selected>elem 1
-                                                    </option>
-                                                    <option value="elem_2">elem 2
-                                                    </option>
-                                                    <option value="elem_3">elem 3
-                                                    </option>
-                                                    <option value="elem_4"
-                                                        selected>elem 4
-                                                    </option>
-                                                    <option value="elem_5">elem 5
-                                                    </option>
-                                                    <option value="elem_6">elem 6
-                                                    </option>
-                                                    <option value="elem_7">elem 7
-                                                    </option>
-                                                    <option value="elem_8">elem 8
-                                                    </option>
-                                                    <option value="elem_9">elem 9
-                                                    </option>
-                                                    <option value="elem_10">elem 10
-                                                    </option>
-                                                    <option value="elem_11">elem 11
-                                                    </option>
-                                                    <option value="elem_12">elem 12
-                                                    </option>
-                                                    <option value="elem_13">elem 13
-                                                    </option>
-                                                    <option value="elem_14">elem 14
-                                                    </option>
-                                                    <option value="elem_15">elem 15
-                                                    </option>
-                                                    <option value="elem_16">elem 16
-                                                    </option>
+                                                <select class="test" multiple id="selectKisiler" runat="server">
                                                 </select>
                                             </div>
                                         </div>
@@ -246,8 +213,8 @@
                                         <div class="form-group row">
                                             <label class="col-sm-2"></label>
                                             <div class="col-sm-6">
-                                                <button type="submit"
-                                                    class="btn btn-primary m-b-0">
+                                                <button type="button" runat="server" id="btnGorevAtamaKaydet"
+                                                    class="btn btn-primary m-b-0" OnServerClick="btnGorevAtamaKaydet_OnServerClick">
                                                     Kaydet
                                                 </button>
                                                 <button class="btn waves-effect waves-light btn-danger btn-square">
@@ -261,7 +228,7 @@
                                                 </button>
                                             </div>
                                         </div>
-                                    </form>
+                                    </div>
                                 </div>
                             </div>
 
@@ -286,7 +253,6 @@
 
                                                             <td><%#Eval("AtananKisi") %></td>
                                                             <td><%#Eval("AtayanKisi") %></td>
-
                                                         </tr>
                                                     </ItemTemplate>
                                                 </asp:ListView>
@@ -305,6 +271,18 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<link href="/Site/css/fSelect.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/Site/js/fSelect.js"></script>
+<script>
+    (function ($) {
+        $(function () {
+            window.fs_test = $('.test').fSelect();
+        });
+    })(jQuery);
+
+</script>
 <script>
     $(document).ready(function () {
 
@@ -314,14 +292,13 @@
                 return $(this).text();
             }).get();
 
-            console.log(rowData);
             $("#gorevId").val(rowData[0]);
             $("#gorevAdi").val(rowData[1]);
             $("#gorevIcerik").val(rowData[2]);
             $("#toplantiAdi").val(rowData[3]).trigger('change');
             $("#sonTarih").val(rowData[4]);
             $("#sonSaat").val((rowData[5]));
-            
+
         });
 
         $("#row-select tbody").on('click', 'tr', function () {
@@ -330,14 +307,11 @@
                 return $(this).text();
             }).get();
 
-
-
             $("#productselectname").val(rowData[0]).trigger("change");
             $("#productfeature").val(rowData[1]).trigger("change");
             $("#featurevalue").val(rowData[2]);
 
         });
-
 
         $("#GorevAtamaTemizle").on('click', function () {
 
@@ -358,8 +332,15 @@
 
         });
 
-
-        
-
     });
+</script>
+<script>
+    var ta = document.querySelector('#tbxIlgiliKisiler');
+
+
+    $('#selectKisiler').change(function () {
+        var selectedValues = $(this).val();
+        ta.innerText = selectedValues;
+    });
+
 </script>

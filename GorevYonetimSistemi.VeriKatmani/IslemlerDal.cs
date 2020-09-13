@@ -1,21 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Migrations;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GorevYonetimSistemi.VeriKatmani
 {
-    public class IslemlerDal<T>:IIslemlerDal<T> where T:class
+    public class IslemlerDal<T> : IIslemlerDal<T> where T : class
     {
         private EntityContext _context;
         private DbSet<T> _table;
 
         public IslemlerDal()
         {
-            _context=new EntityContext();
+            _context = new EntityContext();
             _table = _context.Set<T>();
         }
 
@@ -25,11 +22,17 @@ namespace GorevYonetimSistemi.VeriKatmani
             _table = context.Set<T>();
         }
 
+        public T TekListele<T>() where T : class
+        {
+            var list = _context.Set<T>().FirstOrDefault();
+            return list;
+        }
+
         public List<T> Listele<T>() where T : class
         {
             var list = _context.Set<T>().ToList();
             return list;
-        } 
+        }
 
         public void Ekle(T obj)
         {
@@ -43,10 +46,10 @@ namespace GorevYonetimSistemi.VeriKatmani
             _context.SaveChanges();
         }
 
-        public void Sil(T obj)
+        public void Sil(int id)
         {
-            _table.Attach(obj);
-            _table.Remove(obj);
+            T existing = _table.Find(id);
+            _table.Remove(existing);
             _context.SaveChanges();
         }
     }

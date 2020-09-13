@@ -80,6 +80,7 @@
     <Content Include="Admin\AdminBildirimDetay.aspx" />
     <Content Include="Admin\AdminGorev.aspx" />
     <Content Include="Admin\AdminToplanti.aspx" />
+    <Content Include="Site\css\fSelect.css" />
     <Content Include="Site\Default.aspx" />
     <Content Include="bin\EntityFramework.dll" />
     <Content Include="bin\EntityFramework.SqlServer.dll" />
@@ -369,6 +370,7 @@
     <Content Include="Site\js\form-mask.js" />
     <Content Include="Site\js\form-validation.js" />
     <Content Include="Site\js\form-wizard.js" />
+    <Content Include="Site\js\fSelect.js" />
     <Content Include="Site\js\fullcalendar.min.js" />
     <Content Include="Site\js\gauge.js" />
     <Content Include="Site\js\gdp-data.js" />

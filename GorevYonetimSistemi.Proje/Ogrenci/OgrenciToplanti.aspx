@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site/Page.Master" AutoEventWireup="true" CodeBehind="OgrenciToplanti.aspx.cs" Inherits="GorevYonetimSistemi.Proje.Ogrenci.OgrenciToplanti" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site/Page.Master" AutoEventWireup="true" EnableEventValidation="false" CodeBehind="OgrenciToplanti.aspx.cs" Inherits="GorevYonetimSistemi.Proje.Ogrenci.OgrenciToplanti" %>
 
 <%@ Register Src="~/User Kontrol/UserToplanti.ascx" TagPrefix="uc1" TagName="UserToplanti" %>
 
