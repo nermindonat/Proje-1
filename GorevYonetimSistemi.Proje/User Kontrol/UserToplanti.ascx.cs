@@ -83,7 +83,7 @@ namespace GorevYonetimSistemi.Proje.User_Kontrol
                 Yer = tbxToplantiYeri.Value
             });
             ToplantiListe();
-            lblSonuc.InnerText = "Kayıt başarılı";
+            lblSonuc.InnerText = "Kayıt başarılı!";
         }
 
         protected void btnDetayKaydet_OnServerClick(object sender, EventArgs e)
