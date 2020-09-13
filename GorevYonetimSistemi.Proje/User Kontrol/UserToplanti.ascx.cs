@@ -124,7 +124,7 @@ namespace GorevYonetimSistemi.Proje.User_Kontrol
                 Yer = tbxToplantiYeri.Value
             });
 
-            lblSonuc.InnerText = "Kayıt Güncellendi!";
+            lblSonuc.InnerText = "Kayıt Güncellendi";
             ToplantiListe();
         }
 
