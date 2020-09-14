@@ -11,6 +11,7 @@ namespace GorevYonetimSistemi.Proje.Ogrenci
     public partial class OgrenciBildirimDetay : System.Web.UI.Page
     {
         SessionKontrol _sessionKontrol = new SessionKontrol();
+        private string Deneme1;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
