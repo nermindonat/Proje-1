@@ -20,7 +20,6 @@ namespace GorevYonetimSistemi.Proje.User_Kontrol
                 GorevListele();
                 GorevAtamaListele();
             }
-
         }
 
         private void GorevAtamaListele()
@@ -35,6 +34,11 @@ namespace GorevYonetimSistemi.Proje.User_Kontrol
             var gorevListe = _gorevDal.Listele<Gorev>();
             dlGorev.DataSource = gorevListe;
             dlGorev.DataBind();
+        }
+
+        protected void btnGorevKaydet_OnServerClick(object sender, EventArgs e)
+        {
+            
         }
     }
 }

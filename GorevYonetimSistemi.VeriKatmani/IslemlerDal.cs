@@ -43,10 +43,10 @@ namespace GorevYonetimSistemi.VeriKatmani
             _context.SaveChanges();
         }
 
-        public void Sil(T obj)
+        public void Sil(object id)
         {
-            _table.Attach(obj);
-            _table.Remove(obj);
+            T existing = _table.Find(id);
+            _table.Remove(existing);
             _context.SaveChanges();
         }
     }

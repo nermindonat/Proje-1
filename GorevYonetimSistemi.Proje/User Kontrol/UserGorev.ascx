@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="UserGorev.ascx.cs" Inherits="GorevYonetimSistemi.Proje.User_Kontrol.UserGorev" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="UserGorev.ascx.cs" ClientIDMode="Static" Inherits="GorevYonetimSistemi.Proje.User_Kontrol.UserGorev" %>
 
 <div class="row">
     <div class="col-sm-12">
@@ -29,6 +29,7 @@
                                 <div class="card-block">
                                     <form id="main2" method="post"
                                         novalidate>
+                                        <asp:Label runat="server" ID="lblDeneme"></asp:Label>
                                         <div class="form-group row">
                                             <div class="col-sm-4">
                                                 <input type="hidden"
@@ -114,7 +115,7 @@
                                         <div class="form-group row">
                                             <label class="col-sm-2"></label>
                                             <div class="col-sm-6">
-                                                <button type="submit"
+                                                <button runat="server" ID="btnGorevKaydet" OnServerClick="btnGorevKaydet_OnServerClick" type="submit"
                                                     class="btn btn-primary m-b-0">
                                                     Kaydet
                                                 </button>
@@ -242,7 +243,7 @@
                                                 </select>
                                             </div>
                                         </div>
-
+                                        
                                         <div class="form-group row">
                                             <label class="col-sm-2"></label>
                                             <div class="col-sm-6">

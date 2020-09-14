@@ -1,14 +1,13 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="UserToplanti.ascx.cs" Inherits="GorevYonetimSistemi.Proje.User_Kontrol.UserToplanti" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" ClientIDMode="Static" CodeBehind="UserToplanti.ascx.cs" Inherits="GorevYonetimSistemi.Proje.User_Kontrol.UserToplanti" %>
 <%@ Import Namespace="System.Diagnostics.Eventing.Reader" %>
-
 
 <div class="row">
     <div class="col-sm-12">
-
+        <asp:Label runat="server" ID="lblDeneme"></asp:Label>
         <div class="col-lg-12 order-lg-2">
             <ul class="nav nav-tabs">
                 <li class="nav-item">
-                    <a href="" data-target="#toplantiKayit"
+                    <a href="#" data-target="#toplantiKayit"
                         data-toggle="tab" class="nav-link active">
                         <strong>Toplantı
                 Kayıt
@@ -16,7 +15,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" data-target="#toplantiDetay"
+                    <a href="#" data-target="#toplantiDetay"
                         data-toggle="tab" class="nav-link">
                         <strong>Toplantı
                 Detay
@@ -24,7 +23,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" data-target="#toplantiAtama"
+                    <a href="#" data-target="#toplantiAtama"
                         data-toggle="tab" class="nav-link">
                         <strong>Toplantı
                 Atama
@@ -32,7 +31,7 @@
                     </a>
                 </li>
             </ul>
-            <div class="tab-content py-4">
+        <div class="tab-content py-4">
                 <div class="tab-pane active " id="toplantiKayit">
                     <div class="row">
                         <div class="col-sm-12">
@@ -158,32 +157,32 @@
                                 </div>
                                 <div class="card-block">
                                     <div class="dt-responsive table-responsive">
-                                        <table id="row-delete"
-                                            class="table table-striped table-bordered nowrap">
+                                        <table id="row-delete" class="table table-striped table-bordered nowrap">
                                             <thead>
-                                                <tr>
-                                                    <th hidden>Toplantı ID</th>
-                                                    <th>Toplantı Adı</th>
-                                                    <th>Toplantı İçeriği</th>
-                                                    <th>Toplantı Tarih</th>
-                                                    <th>Toplantı Saat</th>
-                                                    <th>Toplantı Yeri</th>
-                                                </tr>
+                                            <tr>
+                                            <th hidden>Toplantı ID</th>
+                                            <th>Toplantı Adı</th>
+                                            <th>Toplantı İçeriği</th>
+                                            <th>Toplantı Tarih</th>
+                                            <th>Toplantı Saat</th>
+                                            <th>Toplantı Yeri</th>
+
+                                                   </tr>
                                             </thead>
                                             <tbody>
-                                                <asp:ListView runat="server" ID="lvToplanti">
-                                                    <ItemTemplate>
-                                                        <tr>
-                                                            <td hidden><%#Eval("ToplantiId") %></td>
-                                                            <td><%#Eval("ToplantiAdi") %></td>
-                                                            <td><%#Eval("ToplantiIcerigi") %></td>
-                                                            <td><%#Eval("SonTarihSaat","{0:dd/MM/yyyy}") %></td>
-                                                            <td><%#Eval("SonTarihSaat","{0:hh.mm tt}") %></td>
-                                                            <td><%#Eval("Yer") %></td>
+                                            <asp:ListView runat="server" ID="lvToplanti">
+                                                <ItemTemplate>
+                                                    <tr>
+                                                        <td hidden><%#Eval("ToplantiId") %></td>
+                                                        <td><%#Eval("ToplantiAdi") %></td>
+                                                        <td><%#Eval("ToplantiIcerigi") %></td>
+                                                        <td><%#Eval("SonTarihSaat","{0:dd/MM/yyyy}") %></td>
+                                                        <td><%#Eval("SonTarihSaat","{0:hh.mm tt}") %></td>
+                                                        <td><%#Eval("Yer") %></td>
 
-                                                        </tr>
-                                                    </ItemTemplate>
-                                                </asp:ListView>
+                                                    </tr>
+                                                </ItemTemplate>
+                                            </asp:ListView>
                                             </tbody>
                                         </table>
                                     </div>
@@ -220,15 +219,7 @@
                                 Adı
                                             </label>
                                             <div class="col-sm-4">
-                                                <select class="js-example-data-array " id="selectToplantiDetayTA">
-                                                    <option value="Seçiniz Lorem ipsum
-                                        dolor sit amet.">Seçiniz Lorem ipsum
-                                        dolor sit amet.
-                                                    </option>
-                                                    <option value="Staj Komisyonu">Staj Komisyonu
-                                                    </option>
-                                                    <option value="Toplantı 2">Toplantı 2
-                                                    </option>
+                                                <select runat="server" class="js-example-data-array " id="selectToplantiDetayTA">
                                                 </select>
                                             </div>
                                         </div>
@@ -344,16 +335,8 @@
                                         <div class="form-group row">
                                             <label class="col-sm-2 col-form-label">Toplantı</label>
                                             <div class="col-sm-10">
-                                                <select class="js-example-data-array ">
-                                                    <option value="Seciniz">Seçiniz Lorem ipsum
-                                        dolor.
-                                                    </option>
-                                                    <option value="1">Toplantı
-                                        1Seçiniz Lorem ipsum
-                                        dolor.
-                                                    </option>
-                                                    <option value="1">Toplantı 2
-                                                    </option>
+                                                <select runat="server" id="selectToplantiAtamaT" class="js-example-data-array ">
+                                                    
                                                 </select>
                                             </div>
                                         </div>
@@ -363,38 +346,35 @@
                                 Kişiler
                                             </label>
                                             <div class="col-sm-10 col-xl-6 m-b-30">
-                                                <select id="custom-headers"
-                                                    class="searchable"
-                                                    multiple="multiple">
-                                                    <option value="elem_1"
-                                                        selected>elem 1
-                                                    </option>
-                                                    <option value="elem_2">elem 2
-                                                    </option>
-                                                    <option value="elem_3">elem 3
-                                                    </option>
-                                                    <option value="elem_4"
-                                                        selected>elem 4
-                                                    </option>
-                                                    <option value="elem_5">elem 5
-                                                    </option>
-                                                    <option value="elem_6">elem 6
-                                                    </option>
-                                                    <option value="elem_7">elem 7
-                                                    </option>
-                                                    <option value="elem_8">elem 8
-                                                    </option>
-                                                    <option value="elem_9">elem 9
-                                                    </option>
-                                                </select>
+                                                <fieldset style="width: 240px">
+                                                    <legend>Searchable CheckboxList Example</legend>
+                                                    <asp:TextBox ID="txtSearch" runat="server" onkeyup="SearchEmployees(this,'#cblEmployees');"
+                                                                 placeholder="Search employee">
+                                                    </asp:TextBox>
+                                                    <span id="spnCount"></span>
+                                                    <div style="height: 200px; overflow-y: auto; overflow-x: hidden">
+                                                        <asp:CheckBoxList ID="cblEmployees" runat="server" RepeatColumns="1"
+                                                                          RepeatDirection="Vertical" Width="240px" ClientIDMode="Static">
+                                                            <asp:ListItem Text="Sahil" Value="1"></asp:ListItem>
+                                                            <asp:ListItem Text="Kabeer" Value="2"></asp:ListItem>
+                                                            <asp:ListItem Text="Arjun" Value="3"></asp:ListItem>
+                                                            <asp:ListItem Text="Aryan" Value="4"></asp:ListItem>
+                                                            <asp:ListItem Text="Ranbeer" Value="5"></asp:ListItem>
+                                                            <asp:ListItem Text="Armaan" Value="6"></asp:ListItem>
+                                                            <asp:ListItem Text="Salmaan" Value="7"></asp:ListItem>
+                                                            <asp:ListItem Text="Amit" Value="8"></asp:ListItem>
+                                                            <asp:ListItem Text="Virat" Value="9"></asp:ListItem>
+                                                            <asp:ListItem Text="Anand" Value="10"></asp:ListItem>
+                                                        </asp:CheckBoxList>
+                                                    </div>
+                                                </fieldset>           
                                             </div>
-                                        </div>
 
                                         <div class="form-group row">
                                             <label class="col-sm-2"></label>
                                             <div class="col-sm-6">
-                                                <button type="submit"
-                                                    class="btn btn-primary m-b-0">
+                                                <button runat="server" id="btnToplantiAtamaKaydet" type="button"
+                                                    class="btn btn-primary m-b-0" OnServerClick="btnToplantiAtamaKaydet_OnServerClick">
                                                     Kaydet
                                                 </button>
                                                 <button class="btn waves-effect waves-light btn-danger btn-square">
@@ -480,7 +460,6 @@
             $("#selectToplantiDetayTA").val(rowData[2]).trigger("change");
             $("#inlineRadio1").val(rowData[3]);
             $("#toplantiSonAlKarar").val(rowData[4]);
-            console.log(rowData)
 
         });
 
@@ -504,5 +483,34 @@
 
         });
 
+        $('.demo').fSelect();
+        $('.demo').multiSelect();
     });
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript">
+    function SearchEmployees(txtSearch, cblEmployees) {
+        if ($(txtSearch).val() != "") {
+            var count = 0;
+            $(cblEmployees).children('tbody').children('tr').each(function () {
+                var match = false;
+                $(this).children('td').children('label').each(function () {
+                    if ($(this).text().toUpperCase().indexOf($(txtSearch).val().toUpperCase()) > -1)
+                        match = true;
+                });
+                if (match) {
+                    $(this).show();
+                    count++;
+                }
+                else { $(this).hide(); }
+            });
+            $('#spnCount').html((count) + ' match');
+        }
+        else {
+            $(cblEmployees).children('tbody').children('tr').each(function () {
+                $(this).show();
+            });
+            $('#spnCount').html('');
+        }
+    }
 </script>

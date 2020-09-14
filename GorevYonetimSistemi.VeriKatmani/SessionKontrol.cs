@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,17 +14,21 @@ namespace GorevYonetimSistemi.VeriKatmani
             using (EntityContext context = new EntityContext())
             {
                 string[] urlParcasi = url.Split('/');
-                var kisiTur = context.KullaniciTurleri.Where(i => i.KullaniciTurId == kullaniciTurId)
-                    .Select(i => i.KullaniciTurAd);
-                if (urlParcasi[0] == kisiTur.ToString())
+                var kisiTur = (from i in context.KullaniciTurleri where i.KullaniciTurId == kullaniciTurId select i.KullaniciTurAd).ToList();
+                foreach (var kisiTurAd in kisiTur)
                 {
-                    return url;
-                }
-                else
-                {
-                    return "/Site/";
+                    if (urlParcasi[1] == kisiTurAd)
+                    {
+                        return url;
+                    }
+                    else
+                    {
+                        return "/Site/";
+                    }
                 }
 
+
+                return null;
             }
         }
     }

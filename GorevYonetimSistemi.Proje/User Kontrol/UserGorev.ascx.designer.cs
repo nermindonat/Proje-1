@@ -15,6 +15,24 @@ namespace GorevYonetimSistemi.Proje.User_Kontrol
     {
 
         /// <summary>
+        /// lblDeneme control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDeneme;
+
+        /// <summary>
+        /// btnGorevKaydet control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnGorevKaydet;
+
+        /// <summary>
         /// dlGorev control.
         /// </summary>
         /// <remarks>
