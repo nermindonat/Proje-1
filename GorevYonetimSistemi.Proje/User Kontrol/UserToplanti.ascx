@@ -202,8 +202,7 @@
                                     <h5>Toplantı Detay Ekle</h5>
                                 </div>
                                 <div class="card-block">
-                                    <form id="main3" method="post"
-                                        novalidate>
+                                    <div id="main3">
                                         <div class="form-group row">
                                             <div class="col-sm-4">
                                                 <input type="hidden"
@@ -282,7 +281,7 @@
                                                 </button>
                                             </div>
                                         </div>
-                                    </form>
+                                    </div>
                                 </div>
                             </div>
                             <div class="card">
