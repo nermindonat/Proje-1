@@ -10583,7 +10583,7 @@ tr.shown td.details-control {
     background: url(../png/details_close.png) no-repeat center center
 }
 
-#row-delete .selected, #row-select .selected {
+#row-delete .selected, #row-select .selected, #dom-jqry .selected, #colum-rendr .selected{
     background-color: #4099ff;
     color: #fff
 }
