@@ -70,3 +70,15 @@ H:\GithubProjects\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYoneti
 H:\GithubProjects\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.csproj.CopyComplete
 H:\GithubProjects\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.dll
 H:\GithubProjects\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.pdb
+H:\My-Github-Projects\Proje\GorevYonetimSistemi.EntitySiniflar\bin\Debug\GorevYonetimSistemi.EntitySiniflar.dll.config
+H:\My-Github-Projects\Proje\GorevYonetimSistemi.EntitySiniflar\bin\Debug\GorevYonetimSistemi.EntitySiniflar.dll
+H:\My-Github-Projects\Proje\GorevYonetimSistemi.EntitySiniflar\bin\Debug\GorevYonetimSistemi.EntitySiniflar.pdb
+H:\My-Github-Projects\Proje\GorevYonetimSistemi.EntitySiniflar\bin\Debug\EntityFramework.dll
+H:\My-Github-Projects\Proje\GorevYonetimSistemi.EntitySiniflar\bin\Debug\EntityFramework.SqlServer.dll
+H:\My-Github-Projects\Proje\GorevYonetimSistemi.EntitySiniflar\bin\Debug\EntityFramework.xml
+H:\My-Github-Projects\Proje\GorevYonetimSistemi.EntitySiniflar\bin\Debug\EntityFramework.SqlServer.xml
+H:\My-Github-Projects\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.csprojAssemblyReference.cache
+H:\My-Github-Projects\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.csproj.CoreCompileInputs.cache
+H:\My-Github-Projects\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.csproj.CopyComplete
+H:\My-Github-Projects\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.dll
+H:\My-Github-Projects\Proje\GorevYonetimSistemi.EntitySiniflar\obj\Debug\GorevYonetimSistemi.EntitySiniflar.pdb

@@ -79,6 +79,7 @@
     <Content Include="Admin\AdminBildirim.aspx" />
     <Content Include="Admin\AdminBildirimDetay.aspx" />
     <Content Include="Admin\AdminGorev.aspx" />
+    <Content Include="Admin\AdminOkul.aspx" />
     <Content Include="Admin\AdminToplanti.aspx" />
     <Content Include="Site\css\fSelect.css" />
     <Content Include="Site\Default.aspx" />
@@ -2288,6 +2289,13 @@
     </Compile>
     <Compile Include="Admin\AdminGorev.aspx.designer.cs">
       <DependentUpon>AdminGorev.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminOkul.aspx.cs">
+      <DependentUpon>AdminOkul.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminOkul.aspx.designer.cs">
+      <DependentUpon>AdminOkul.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\AdminToplanti.aspx.cs">
       <DependentUpon>AdminToplanti.aspx</DependentUpon>

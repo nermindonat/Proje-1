@@ -15,58 +15,22 @@ namespace GorevYonetimSistemi.Proje.User_Kontrol
     {
 
         /// <summary>
-        /// gorevId control.
+        /// lblDeneme control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputHidden gorevId;
+        protected global::System.Web.UI.WebControls.Label lblDeneme;
 
         /// <summary>
-        /// gorevAdi control.
+        /// btnGorevKaydet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText gorevAdi;
-
-        /// <summary>
-        /// gorevIcerik control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTextArea gorevIcerik;
-
-        /// <summary>
-        /// gorev control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputFile gorev;
-
-        /// <summary>
-        /// sonTarih control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText sonTarih;
-
-        /// <summary>
-        /// sonSaat control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText sonSaat;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnGorevKaydet;
 
         /// <summary>
         /// dlGorev control.
@@ -76,42 +40,6 @@ namespace GorevYonetimSistemi.Proje.User_Kontrol
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ListView dlGorev;
-
-        /// <summary>
-        /// selectGorevAtama control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect selectGorevAtama;
-
-        /// <summary>
-        /// tbxIlgiliKisiler control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTextArea tbxIlgiliKisiler;
-
-        /// <summary>
-        /// selectKisiler control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect selectKisiler;
-
-        /// <summary>
-        /// btnGorevAtamaKaydet control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnGorevAtamaKaydet;
 
         /// <summary>
         /// lvGorevAtama control.

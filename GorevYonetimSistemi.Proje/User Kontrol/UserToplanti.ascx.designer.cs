@@ -15,103 +15,13 @@ namespace GorevYonetimSistemi.Proje.User_Kontrol
     {
 
         /// <summary>
-        /// toplantiId control.
+        /// lblDeneme control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputHidden toplantiId;
-
-        /// <summary>
-        /// tbxToplantiAdi control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText tbxToplantiAdi;
-
-        /// <summary>
-        /// tbxToplantiKonusu control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText tbxToplantiKonusu;
-
-        /// <summary>
-        /// taToplantiIcerigi control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTextArea taToplantiIcerigi;
-
-        /// <summary>
-        /// tbxToplantiTarihi control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText tbxToplantiTarihi;
-
-        /// <summary>
-        /// tbxToplantiSaati control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText tbxToplantiSaati;
-
-        /// <summary>
-        /// tbxToplantiYeri control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText tbxToplantiYeri;
-
-        /// <summary>
-        /// lblSonuc control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblSonuc;
-
-        /// <summary>
-        /// btnKaydet control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnKaydet;
-
-        /// <summary>
-        /// btnSil control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnSil;
-
-        /// <summary>
-        /// btnGuncelle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnGuncelle;
+        protected global::System.Web.UI.WebControls.Label lblDeneme;
 
         /// <summary>
         /// lvToplanti control.
@@ -123,58 +33,13 @@ namespace GorevYonetimSistemi.Proje.User_Kontrol
         protected global::System.Web.UI.WebControls.ListView lvToplanti;
 
         /// <summary>
-        /// toplantiDetayId control.
+        /// selectToplantiDetayTA control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputHidden toplantiDetayId;
-
-        /// <summary>
-        /// selectToplantiDetayTa control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect selectToplantiDetayTa;
-
-        /// <summary>
-        /// toplantiSonAlKarar control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTextArea toplantiSonAlKarar;
-
-        /// <summary>
-        /// btnDetayKaydet control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnDetayKaydet;
-
-        /// <summary>
-        /// btnDetaySil control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnDetaySil;
-
-        /// <summary>
-        /// btnDetayGuncelle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnDetayGuncelle;
+        protected global::System.Web.UI.HtmlControls.HtmlSelect selectToplantiDetayTA;
 
         /// <summary>
         /// lvToplantiDetay control.
@@ -186,40 +51,40 @@ namespace GorevYonetimSistemi.Proje.User_Kontrol
         protected global::System.Web.UI.WebControls.ListView lvToplantiDetay;
 
         /// <summary>
-        /// tbxIlgiliKisiler control.
+        /// selectToplantiAtamaT control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTextArea tbxIlgiliKisiler;
+        protected global::System.Web.UI.HtmlControls.HtmlSelect selectToplantiAtamaT;
 
         /// <summary>
-        /// selectToplantiAtamaTa control.
+        /// txtSearch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect selectToplantiAtamaTa;
+        protected global::System.Web.UI.WebControls.TextBox txtSearch;
 
         /// <summary>
-        /// selectKisiler control.
+        /// cblEmployees control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect selectKisiler;
+        protected global::System.Web.UI.WebControls.CheckBoxList cblEmployees;
 
         /// <summary>
-        /// btnAtamaKaydet control.
+        /// btnToplantiAtamaKaydet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnAtamaKaydet;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnToplantiAtamaKaydet;
 
         /// <summary>
         /// lvToplantiAtama control.
