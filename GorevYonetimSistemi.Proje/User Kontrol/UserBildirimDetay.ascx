@@ -60,56 +60,65 @@
                             <h5>Here You Have New Opportunity...</h5>
                             <h6 class="float-right">08:23 AM</h6>
                         </div>
-                        <div class="card-block">
-                            <div class="media m-b-20">
-                                <div class="media-left photo-table">
-                                    <a href="#">
-                                        <img class="media-object img-radius" src="/Site/jpg/avatar-3.jpg" alt="E-mail User">
-                                    </a>
-                                </div>
-                                <div class="media-body photo-contant">
-                                    <a href="#">
-                                        <h6 class="user-name txt-primary">John Doe</h6>
-                                    </a>
-                                    <a class="user-mail txt-muted" href="#">
-                                        <h6>From:<span class="__cf_email__" data-cfemail="244e4b4c4a404b4115111017644349454d480a474b49">[email&#160;protected]</span></h6>
-                                    </a>
-                                    <div>
-                                        <h6 class="email-welcome-txt">Hello Dear...</h6>
-                                        <p class="email-content">
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
-                                        </p>
-                                    </div>
-                                    <div class="m-t-15">
-                                        <i class="icofont icofont-clip f-20 m-r-10"></i>Attachments <b>(3)</b>
-                                        <div class="row mail-img m-b-20">
-                                            <div class="col-sm-4 col-md-2 col-xs-12">
-                                                <a href="#">
-                                                    <img class="card-img-top img-fluid img-thumbnail" src="/Site/jpg/card1.jpg" alt="Card image cap">
-                                                </a>
+                        <asp:ListView runat="server" ID="lvIcerik">
+                            <ItemTemplate>
+                                <div class="card-block">
+                                    <div class="media m-b-20">
+                                        <div class="media-left photo-table">
+                                            <a href="#">
+                                                <img class="media-object img-radius" src="/Site/jpg/avatar-3.jpg" alt="E-mail User">
+                                            </a>
+                                        </div>
+                                        <div class="media-body photo-contant">
+                                            <a href="#">
+                                                <h6 class="user-name txt-primary">John Doe</h6>
+                                            </a>
+                                            <a class="user-mail txt-muted" href="#">
+                                                <h6>From:<span class="__cf_email__" data-cfemail="244e4b4c4a404b4115111017644349454d480a474b49">[email&#160;protected]</span></h6>
+                                            </a>
+                                            <div>
+                                                <h6 class="email-welcome-txt"><%#Eval("BildirimIcerik") %>
+                                                
+                                                </h6>
+
+                                                <p class="email-content">
+                                                    <h4>Görev Adı:</h4><%#Eval("GorevAdi")%>
+                                                    <h4>İçerik:</h4><%#Eval("GorevIcerigi") %>
+                                                    <h4>Son Tarih:</h4><%#Eval("GorevSonTarihSaat") %>
+                                                </p>
                                             </div>
-                                            <div class="col-sm-4 col-md-2 col-xs-12">
-                                                <a href="#">
-                                                    <img class="card-img-top img-fluid img-thumbnail" src="/Site/jpg/card2.jpg" alt="Card image cap">
-                                                </a>
-                                            </div>
-                                            <div class="col-sm-4 col-md-2 col-xs-12">
-                                                <a href="#">
-                                                    <img class="card-img-top img-fluid img-thumbnail" src="/Site/jpg/card13.jpg" alt="Card image cap">
-                                                </a>
+                                            <div class="m-t-15">
+                                                <i class="icofont icofont-clip f-20 m-r-10"></i>Attachments <b>(3)</b>
+                                                <div class="row mail-img m-b-20">
+                                                    <div class="col-sm-4 col-md-2 col-xs-12">
+                                                        <a href="#">
+                                                            <img class="card-img-top img-fluid img-thumbnail" src="/Site/jpg/card1.jpg" alt="Card image cap">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-sm-4 col-md-2 col-xs-12">
+                                                        <a href="#">
+                                                            <img class="card-img-top img-fluid img-thumbnail" src="/Site/jpg/card2.jpg" alt="Card image cap">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-sm-4 col-md-2 col-xs-12">
+                                                        <a href="#">
+                                                            <img class="card-img-top img-fluid img-thumbnail" src="/Site/jpg/card13.jpg" alt="Card image cap">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="form-material">
+                                                    <div class="form-group form-primary">
+                                                        <textarea class="form-control" id="exampleTextarea-1" required=""></textarea>
+                                                        <span class="form-bar"></span>
+                                                        <label class="float-label">Reply Your Thoughts</label>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="form-material">
-                                            <div class="form-group form-primary">
-                                                <textarea class="form-control" id="exampleTextarea-1" required=""></textarea>
-                                                <span class="form-bar"></span>
-                                                <label class="float-label">Reply Your Thoughts</label>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                            </ItemTemplate>
+                        </asp:ListView>
                     </div>
                 </div>
             </div>

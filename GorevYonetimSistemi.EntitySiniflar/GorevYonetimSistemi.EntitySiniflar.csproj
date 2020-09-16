@@ -54,6 +54,8 @@
     <Compile Include="AnaBilimDal.cs" />
     <Compile Include="Atama.cs" />
     <Compile Include="Bildirim.cs" />
+    <Compile Include="BildirimAtama.cs" />
+    <Compile Include="BildirimAtamaModel.cs" />
     <Compile Include="Bolum.cs" />
     <Compile Include="Gorev.cs" />
     <Compile Include="GorevAtama.cs" />

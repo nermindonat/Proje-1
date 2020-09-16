@@ -109,49 +109,23 @@
                                                 <h6>Bildirimler</h6>
                                                 <label class="label label-danger">Yeni mesajlar</label>
                                             </li>
-                                            <li>
-                                                <div class="media">
-                                                    <img class="img-radius" src="/Site/jpg/avatar-4.jpg"
-                                                        alt="Generic placeholder image">
-                                                    <div class="media-body">
-                                                        <h5 class="notification-user"></h5>
-                                                        <p class="notification-msg">
-                                                            Lorem ipsum dolor sit amet, consectetuer
-                                                    elit.
-                                                        </p>
-                                                        <span class="notification-time">30 minutes ago</span>
+                                            <asp:ListView runat="server" ID="lvBildirimler">
+                                                <ItemTemplate>
+                                                <li>
+                                                    <div class="media">
+                                                        <img class="img-radius" src="/Site/jpg/avatar-4.jpg"
+                                                            alt="Generic placeholder image">
+                                                        <div class="media-body">
+                                                            <h5 class="notification-user"></h5>
+                                                            <p class="notification-msg">
+                                                                <%#Eval("BildirimIcerik") %>
+                                                            </p>
+                                                            <span class="notification-time"><%#Eval("BildirimGondermeTarih") %></span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="media">
-                                                    <img class="img-radius" src="/Site/jpg/avatar-3.jpg"
-                                                        alt="Generic placeholder image">
-                                                    <div class="media-body">
-                                                        <h5 class="notification-user">Joseph William</h5>
-                                                        <p class="notification-msg">
-                                                            Lorem ipsum dolor sit amet, consectetuer
-                                                    elit.
-                                                        </p>
-                                                        <span class="notification-time">30 minutes ago</span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="media">
-                                                    <img class="img-radius" src="/Site/jpg/avatar-4.jpg"
-                                                        alt="Generic placeholder image">
-                                                    <div class="media-body">
-                                                        <h5 class="notification-user">Sara Soudein</h5>
-                                                        <p class="notification-msg">
-                                                            Lorem ipsum dolor sit amet, consectetuer
-                                                    elit.
-                                                        </p>
-                                                        <span class="notification-time">30 minutes ago</span>
-                                                    </div>
-                                                </div>
-                                            </li>
-
+                                                </li>
+                                                </ItemTemplate>
+                                            </asp:ListView>
                                             <li>
                                                 <a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>Bildirim.aspx"
                                                     class="btn waves-effect waves-light btn-github btn-square">Tümünü göster
@@ -391,7 +365,6 @@
                                 <div class="main-body">
                                     <div class="page-wrapper">
                                         <div class="page-body">
-
                                             <div class="card">
                                                 <asp:ContentPlaceHolder ID="content" runat="server">
                                                 </asp:ContentPlaceHolder>
@@ -455,7 +428,7 @@
     </form>
     <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/jquery.min.js"></script>
     <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/jquery-ui.min.js"></script>
-    <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/popper.min.js"></script>
+<script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/popper.min.js"></script>
     <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/bootstrap.min.js"></script>
 
     <script src="/Site/js/waves.min.js" type="88add89075ed2b878b934720-text/javascript"></script>

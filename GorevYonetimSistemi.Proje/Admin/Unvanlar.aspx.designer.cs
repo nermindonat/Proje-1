@@ -7,65 +7,74 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GorevYonetimSistemi.Proje.Site
+namespace GorevYonetimSistemi.Proje.Admin
 {
 
 
-    public partial class Page
+    public partial class Unvanlar
     {
 
         /// <summary>
-        /// head control.
+        /// unvanId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.HtmlControls.HtmlInputHidden unvanId;
 
         /// <summary>
-        /// form1 control.
+        /// unvanAdi control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText unvanAdi;
 
         /// <summary>
-        /// lvBildirimler control.
+        /// btnUnvanKaydet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView lvBildirimler;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnUnvanKaydet;
 
         /// <summary>
-        /// cikis control.
+        /// btnUnvanSil control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor cikis;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnUnvanSil;
 
         /// <summary>
-        /// content control.
+        /// btnUnvanGuncelle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder content;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnUnvanGuncelle;
 
         /// <summary>
-        /// script control.
+        /// lblSonuc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder script;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblSonuc;
+
+        /// <summary>
+        /// lvUnvanlar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView lvUnvanlar;
     }
 }

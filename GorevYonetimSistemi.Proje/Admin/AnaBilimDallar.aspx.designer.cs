@@ -7,65 +7,74 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GorevYonetimSistemi.Proje.Site
+namespace GorevYonetimSistemi.Proje.Admin
 {
 
 
-    public partial class Page
+    public partial class AnaBilimDallar
     {
 
         /// <summary>
-        /// head control.
+        /// anaBilimDalId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.HtmlControls.HtmlInputHidden anaBilimDalId;
 
         /// <summary>
-        /// form1 control.
+        /// anaBilimDalAd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText anaBilimDalAd;
 
         /// <summary>
-        /// lvBildirimler control.
+        /// btnAbdKaydet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView lvBildirimler;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnAbdKaydet;
 
         /// <summary>
-        /// cikis control.
+        /// btnAbdSil control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor cikis;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnAbdSil;
 
         /// <summary>
-        /// content control.
+        /// btnAbdGuncelle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder content;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnAbdGuncelle;
 
         /// <summary>
-        /// script control.
+        /// lblSonuc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder script;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblSonuc;
+
+        /// <summary>
+        /// lvAbd control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView lvAbd;
     }
 }

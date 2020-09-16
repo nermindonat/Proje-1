@@ -94,41 +94,28 @@
                         <div class="mail-body-content">
                             <div class="table-responsive">
                                 <table class="table">
-                                    <tr class="unread">
-                                        <td>
-                                            <div class="check-star">
-                                                <div class="checkbox-fade fade-in-primary checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="">
-                                                        <span class="cr"><i class="cr-icon icofont icofont-verification-check txt-primary"></i></span>
-                                                    </label>
-                                                </div>
-                                                <i class="icofont icofont-star text-warning"></i>
-                                            </div>
-                                        </td>
+                                    <asp:ListView runat="server" ID="lvOkunmayanBildirimler">
+                                        <ItemTemplate>
+                                            <tr class="<%#Eval("BildirimOkumaDurum").Equals(true)?"read":"unread" %>">
+                                                <td>
+                                                    <div class="check-star">
+                                                        <div class="checkbox-fade fade-in-primary checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">
+                                                                <span class="cr"><i class="cr-icon icofont icofont-verification-check txt-primary"></i></span>
+                                                            </label>
+                                                        </div>
+                                                        <i class="icofont icofont-star text-warning"></i>
+                                                    </div>
+                                                </td>
 
-                                        <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Google Inc</a></td>
-                                        <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</a></td>
-                                        <td class="email-attch"><a href="#"><i class="icofont icofont-clip"></i></a></td>
-                                        <td class="email-time">08:01 AM</td>
-                                    </tr>
-                                    <tr class="read">
-                                        <td>
-                                            <div class="check-star">
-                                                <div class="checkbox-fade fade-in-primary checkbox">
-                                                    <label>
-                                                        <input type="checkbox" value="">
-                                                        <span class="cr"><i class="cr-icon icofont icofont-verification-check txt-primary"></i></span>
-                                                    </label>
-                                                </div>
-                                                <i class="icofont icofont-star text-primary"></i>
-                                            </div>
-                                        </td>
-                                        <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Liu Koi Yan</a></td>
-                                        <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect">Charts waiting for you</a></td>
-                                        <td class="email-attch"><a href="#"><i class="icofont icofont-clip"></i></a></td>
-                                        <td class="email-time">07:15 AM</td>
-                                    </tr>
+                                                <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx?bildirimId=<%# Eval("BildirimId") %>" class="email-name waves-effect"><%#Eval("GorevAdi") %></a></td>
+                                                <td><a href="/<%=Session["KullaniciTur"] %>/<%=Session["KullaniciTur"] %>BildirimDetay.aspx" class="email-name waves-effect"><%#Eval("BildirimIcerik") %></a></td>
+                                                <td class="email-attch"><a href="#"><i class="icofont icofont-clip"></i></a></td>
+                                                <td class="email-time"><%#Eval("BildirimGondermeTarih") %></td>
+                                            </tr>
+                                        </ItemTemplate>
+                                    </asp:ListView>
                                 </table>
                             </div>
                         </div>

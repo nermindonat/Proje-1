@@ -13,6 +13,7 @@ namespace GorevYonetimSistemi.EntitySiniflar
     {
         [Key]
         public int UnvanId { get; set; }
+        [Required]
         public string UnvanAd { get; set; }
     }
 }
