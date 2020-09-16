@@ -391,7 +391,6 @@
                                 <div class="main-body">
                                     <div class="page-wrapper">
                                         <div class="page-body">
-
                                             <div class="card">
                                                 <asp:ContentPlaceHolder ID="content" runat="server">
                                                 </asp:ContentPlaceHolder>
@@ -455,7 +454,7 @@
     </form>
     <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/jquery.min.js"></script>
     <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/jquery-ui.min.js"></script>
-    <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/popper.min.js"></script>
+<script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/popper.min.js"></script>
     <script type="88add89075ed2b878b934720-text/javascript" src="/Site/js/bootstrap.min.js"></script>
 
     <script src="/Site/js/waves.min.js" type="88add89075ed2b878b934720-text/javascript"></script>

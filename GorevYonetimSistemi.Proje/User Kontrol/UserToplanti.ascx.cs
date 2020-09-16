@@ -34,6 +34,8 @@ namespace GorevYonetimSistemi.Proje.User_Kontrol
             selectKisiler.DataValueField = "KisiId";
             selectKisiler.DataBind();
 
+            
+
         }
 
         private void ToplantiAtamaListe()

@@ -80,6 +80,9 @@
     <Content Include="Admin\AdminBildirimDetay.aspx" />
     <Content Include="Admin\AdminGorev.aspx" />
     <Content Include="Admin\AdminToplanti.aspx" />
+    <Content Include="Admin\AnaBilimDallar.aspx" />
+    <Content Include="Admin\IdariGorevUnvanlar.aspx" />
+    <Content Include="Admin\Unvanlar.aspx" />
     <Content Include="Site\css\fSelect.css" />
     <Content Include="Site\Default.aspx" />
     <Content Include="bin\EntityFramework.dll" />
@@ -423,6 +426,8 @@
     <Content Include="Site\js\jquery.toolbar.min.js" />
     <Content Include="Site\js\jquery.tree.js" />
     <Content Include="Site\js\jquery.validate.js" />
+    <Content Include="Site\js\jquery.validate.min.js" />
+    <Content Include="Site\js\jquery.validate.unobtrusive.min.js" />
     <Content Include="Site\js\jquery.wavify.js" />
     <Content Include="Site\js\jscolor.js" />
     <Content Include="Site\js\jstree.min.js" />
@@ -2295,6 +2300,27 @@
     </Compile>
     <Compile Include="Admin\AdminToplanti.aspx.designer.cs">
       <DependentUpon>AdminToplanti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AnaBilimDallar.aspx.cs">
+      <DependentUpon>AnaBilimDallar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AnaBilimDallar.aspx.designer.cs">
+      <DependentUpon>AnaBilimDallar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\IdariGorevUnvanlar.aspx.cs">
+      <DependentUpon>IdariGorevUnvanlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\IdariGorevUnvanlar.aspx.designer.cs">
+      <DependentUpon>IdariGorevUnvanlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Unvanlar.aspx.cs">
+      <DependentUpon>Unvanlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Unvanlar.aspx.designer.cs">
+      <DependentUpon>Unvanlar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
