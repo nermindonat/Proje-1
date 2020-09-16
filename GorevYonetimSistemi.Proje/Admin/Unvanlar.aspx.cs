@@ -36,7 +36,7 @@ namespace GorevYonetimSistemi.Proje.Admin
 
             UnvanListele();
             lblSonuc.Visible = true;
-            lblSonuc.InnerText = "Unvan Eklendi!";
+            lblSonuc.InnerText = "Unvan Eklendi";
         }
     
         protected void btnUnvanSil_OnServerClick(object sender, EventArgs e)
