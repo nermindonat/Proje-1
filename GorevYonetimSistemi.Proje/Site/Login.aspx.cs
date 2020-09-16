@@ -39,8 +39,6 @@ namespace GorevYonetimSistemi.Proje.Site
                     var metot = _metotDal.KullaniciTurListe(kullanici.KisiId, int.Parse(kullaniciDeger));
                     if (metot.Count > 0)
                     {
-                        //string url =  kullaniciTur + "Gorev.aspx";
-                        //Response.Redirect("/" + kullaniciTur + "/" + url);
                         foreach (var kullaniciTurModel in metot)
                         {
                             Session["KullaniciTur"] = kullaniciTurModel.KullaniciTur;

@@ -52,6 +52,7 @@ namespace GorevYonetimSistemi.VeriKatmani
         {
             using (EntityContext context = new EntityContext())
             {
+                
                 IQueryable<object> toplantiDetayListesi = (from i in context.ToplantiDetaylar
                     join p in context.Toplantilar on i.FkToplantiId equals p.ToplantiId
                     select new
