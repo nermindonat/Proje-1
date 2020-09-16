@@ -467,6 +467,7 @@
 
     <script src="/Site/js/datatables.bootstrap4.min.js" type="7ce0e70970bcaec788845106-text/javascript"></script>
     <script src="/Site/js/datatables.responsive.min.js" type="7ce0e70970bcaec788845106-text/javascript"></script>
+    <script src="/Site/js/responsive.bootstrap4.min.js" type="f6be685e9eff893077bf6b56-text/javascript"></script>
 
     <script src="/Site/js/data-table-custom.js" type="7ce0e70970bcaec788845106-text/javascript"></script>
 

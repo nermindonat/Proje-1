@@ -11,6 +11,7 @@ namespace GorevYonetimSistemi.EntitySiniflar
     [Table("Kullanicilar")]
     public class Kullanici
     {
+        
         [Key]
         public int KisiId { get; set; }
         

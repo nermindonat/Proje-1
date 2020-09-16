@@ -23,6 +23,7 @@ namespace GorevYonetimSistemi.Proje.Personel
                     Response.Redirect(kontrolUrl);
                 }
             }
+
         }
     }
 }

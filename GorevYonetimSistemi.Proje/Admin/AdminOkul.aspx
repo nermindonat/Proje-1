@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site/Page.Master" ClientIDMode="Static" AutoEventWireup="true" CodeBehind="AdminOkul.aspx.cs" Inherits="GorevYonetimSistemi.Proje.Admin.AdminOkul" %>
+=======
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site/Page.Master" EnableEventValidation="false" ClientIDMode="Static" AutoEventWireup="true" CodeBehind="AdminOkul.aspx.cs" Inherits="GorevYonetimSistemi.Proje.Admin.AdminOkul" %>
+>>>>>>> feature
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
@@ -39,6 +43,10 @@
                                                 <span class="messages"></span>
                                             </div>
                                         </div>
+<<<<<<< HEAD
+
+=======
+>>>>>>> feature
                                         <div class="form-group row">
                                             <label class="col-sm-2"></label>
                                             <div class="col-sm-6">

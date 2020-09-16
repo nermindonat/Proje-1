@@ -11,7 +11,6 @@ namespace GorevYonetimSistemi.Proje.Admin
     public partial class AdminToplanti : System.Web.UI.Page
     {
         SessionKontrol _sessionKontrol = new SessionKontrol();
-
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
@@ -24,6 +23,7 @@ namespace GorevYonetimSistemi.Proje.Admin
                     Response.Redirect(kontrolUrl);
                 }
             }
+
         }
     }
 }

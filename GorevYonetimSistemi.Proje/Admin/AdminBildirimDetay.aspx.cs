@@ -13,6 +13,7 @@ namespace GorevYonetimSistemi.Proje.Admin
         SessionKontrol _sessionKontrol = new SessionKontrol();
         protected void Page_Load(object sender, EventArgs e)
         {
+
             if (!Page.IsPostBack)
             {
                 int kullaniciTurId = Convert.ToInt32(Session["KullaniciTurId"]);

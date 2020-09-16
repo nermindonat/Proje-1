@@ -11,6 +11,6 @@ namespace GorevYonetimSistemi.VeriKatmani
         List<T> Listele<T>() where T : class;
         void Ekle(T obj);
         void Guncelle(T obj);
-        void Sil(int id);
+        void Sil(object id);
     }
 }
