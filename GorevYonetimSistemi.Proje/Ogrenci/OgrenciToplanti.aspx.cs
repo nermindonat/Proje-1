@@ -13,10 +13,16 @@ namespace GorevYonetimSistemi.Proje.Ogrenci
         private SessionKontrol _sessionKontrol = new SessionKontrol();
         protected void Page_Load(object sender, EventArgs e)
         {
-            int kullaniciTurId = Convert.ToInt32(Session["KullaniciTurId"]);
-            string url = HttpContext.Current.Request.Url.AbsolutePath;
-            var kontrolUrl = _sessionKontrol.SessionKontrolu(kullaniciTurId, url);
-            Response.Redirect(kontrolUrl);
+            if (!Page.IsPostBack)
+            {
+                int kullaniciTurId = Convert.ToInt32(Session["KullaniciTurId"]);
+                string url = HttpContext.Current.Request.Url.AbsolutePath;
+                var kontrolUrl = _sessionKontrol.SessionKontrolu(kullaniciTurId, url);
+                if (kontrolUrl != url)
+                {
+                    Response.Redirect(kontrolUrl);
+                }
+            }
         }
     }
 }

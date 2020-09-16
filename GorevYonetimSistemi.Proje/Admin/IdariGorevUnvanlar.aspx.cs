@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web;
 using System.Web.UI;
 using GorevYonetimSistemi.EntitySiniflar;
 using GorevYonetimSistemi.VeriKatmani;
@@ -8,11 +9,19 @@ namespace GorevYonetimSistemi.Proje.Admin
     public partial class IdariGorevUnvanlar : Page
     {
         IslemlerDal<IdariGorevUnvan> _idariGorevUnvanDal = new IslemlerDal<IdariGorevUnvan>();
+        SessionKontrol _sessionKontrol = new SessionKontrol();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
                 IdariGorevUnvanListele();
+                int kullaniciTurId = Convert.ToInt32(Session["KullaniciTurId"]);
+                string url = HttpContext.Current.Request.Url.AbsolutePath;
+                var kontrolUrl = _sessionKontrol.SessionKontrolu(kullaniciTurId, url);
+                if (kontrolUrl != url)
+                {
+                    Response.Redirect(kontrolUrl);
+                }
             }
         }
 

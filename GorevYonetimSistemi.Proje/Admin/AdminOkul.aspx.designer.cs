@@ -7,65 +7,74 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GorevYonetimSistemi.Proje.Site
+namespace GorevYonetimSistemi.Proje.Admin
 {
 
 
-    public partial class Page
+    public partial class AdminOkul
     {
 
         /// <summary>
-        /// head control.
+        /// lblDeneme control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Label lblDeneme;
 
         /// <summary>
-        /// form1 control.
+        /// tbxOkulId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText tbxOkulId;
 
         /// <summary>
-        /// lvBildirimler control.
+        /// tbxOkulAd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView lvBildirimler;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText tbxOkulAd;
 
         /// <summary>
-        /// cikis control.
+        /// btnKaydet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor cikis;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnKaydet;
 
         /// <summary>
-        /// content control.
+        /// btnSil control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder content;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnSil;
 
         /// <summary>
-        /// script control.
+        /// btnGuncelle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder script;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnGuncelle;
+
+        /// <summary>
+        /// lvOkul control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView lvOkul;
     }
 }

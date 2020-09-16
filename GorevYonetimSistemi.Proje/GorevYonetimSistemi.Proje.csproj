@@ -78,7 +78,9 @@
   <ItemGroup>
     <Content Include="Admin\AdminBildirim.aspx" />
     <Content Include="Admin\AdminBildirimDetay.aspx" />
+    <Content Include="Admin\AdminBolum.aspx" />
     <Content Include="Admin\AdminGorev.aspx" />
+    <Content Include="Admin\AdminOkul.aspx" />
     <Content Include="Admin\AdminToplanti.aspx" />
     <Content Include="Admin\AnaBilimDallar.aspx" />
     <Content Include="Admin\IdariGorevUnvanlar.aspx" />
@@ -2287,12 +2289,26 @@
     <Compile Include="Admin\AdminBildirimDetay.aspx.designer.cs">
       <DependentUpon>AdminBildirimDetay.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\AdminBolum.aspx.cs">
+      <DependentUpon>AdminBolum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminBolum.aspx.designer.cs">
+      <DependentUpon>AdminBolum.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\AdminGorev.aspx.cs">
       <DependentUpon>AdminGorev.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin\AdminGorev.aspx.designer.cs">
       <DependentUpon>AdminGorev.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminOkul.aspx.cs">
+      <DependentUpon>AdminOkul.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminOkul.aspx.designer.cs">
+      <DependentUpon>AdminOkul.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\AdminToplanti.aspx.cs">
       <DependentUpon>AdminToplanti.aspx</DependentUpon>

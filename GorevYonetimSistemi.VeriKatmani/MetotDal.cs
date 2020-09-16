@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -87,6 +88,29 @@ namespace GorevYonetimSistemi.VeriKatmani
                 return liste;
             }
 
+        }
+
+        public List<BildirimAtamaModel> KisiBildirimListe(int kisiId)
+        {
+            using (EntityContext context = new EntityContext())
+            {
+                SqlParameter parameter = new SqlParameter("@KisiId",kisiId);
+                var kisiBildirimListesi = context.Database
+                    .SqlQuery<BildirimAtamaModel>("BildirimListe @KisiId", parameter)
+                    .OrderByDescending(p => p.GorevSonTarihSaat).Take(3).ToList();
+                return kisiBildirimListesi;
+            }
+        }
+
+        public List<BildirimAtamaModel> BildirimDetay(int kisiId, int bildirimId)
+        {
+            using (EntityContext context = new EntityContext())
+            {
+                SqlParameter parameter = new SqlParameter("@KisiId", kisiId);
+                var bildirimDetay = context.Database
+                    .SqlQuery<BildirimAtamaModel>("BildirimListe @KisiId", parameter).Where(p=>p.BildirimId==bildirimId).ToList();
+                return bildirimDetay;
+            }
         }
 
 

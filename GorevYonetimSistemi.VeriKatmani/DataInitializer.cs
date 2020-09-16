@@ -9,7 +9,7 @@ using GorevYonetimSistemi.EntitySiniflar;
 
 namespace GorevYonetimSistemi.VeriKatmani
 {
-    public class DataInitializer:DropCreateDatabaseIfModelChanges<EntityContext>
+    public class DataInitializer:CreateDatabaseIfNotExists<EntityContext>
     {
         protected override void Seed(EntityContext context)
         {

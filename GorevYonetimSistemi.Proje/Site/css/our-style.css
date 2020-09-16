@@ -33,3 +33,7 @@ label.float-label {
     font-size: large !important;
     margin: 25% 0% 25% 0%;
 }
+
+p.email-content h4{
+    display: inline-block;
+}
